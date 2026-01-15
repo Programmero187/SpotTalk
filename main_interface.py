@@ -214,8 +214,11 @@ class UnifiedSpotInterface:
         is_successful = False
         print(f"Destination: {destination}")
 
-        if waypoint_id in self.rag_system.get_vector_store_info().get("total_documents", []):
-            # This is likely a waypoint ID
+        # Check if waypoint_id exists in the RAG system by trying to get its annotations
+        waypoint_exists = self.rag_system.get_waypoint_annotations(waypoint_id) is not None
+        
+        if waypoint_exists:
+            # This is a valid waypoint ID
             is_successful = self.graph_nav._navigate_to(destination)
             self._handle_speech("I am navigating to the specified location.")
         else:
@@ -435,8 +438,8 @@ def main():
         wake_word_config=WakeWordConfig(access_key=os.getenv("PICOVOICE_ACCESS_KEY"), keyword_path=KEYWORD_PATH),
         vision_config=VisionConfig(),
         system_prompt=system_prompt_assistant,
-        map_path=os.path.join(MAP_PATH, "chair_v3"),
-        vector_db_path=os.path.join(RAG_DB_PATH, "chair_v3"),
+        map_path=os.path.join(MAP_PATH, "Map1"),
+        vector_db_path=os.path.join(RAG_DB_PATH, "Map1"),
     )
 
     interface = UnifiedSpotInterface(

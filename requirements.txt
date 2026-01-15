@@ -1,9 +1,9 @@
-bosdyn-api==3.1.2.1
-bosdyn-choreography-client==3.1.2.1
-bosdyn-choreography-protos==3.1.2.1
-bosdyn-client==3.1.2.1
-bosdyn-core==3.1.2.1
-bosdyn-mission==3.1.2.1
+bosdyn-api==5.0.1
+bosdyn-choreography-client==5.0.1
+bosdyn-choreography-protos==5.0.1
+bosdyn-client==5.0.1
+bosdyn-core==5.0.1
+bosdyn-mission==5.0.1
 faiss-cpu==1.8.0.post1
 grpcio==1.67.1
 huggingface-hub==0.26.2
