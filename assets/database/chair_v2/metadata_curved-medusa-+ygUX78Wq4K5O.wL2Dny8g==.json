@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "curved-medusa-+ygUX78Wq4K5O.wL2Dny8g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -5.534763242957072,
+    "y": 4.669011290460968,
+    "z": -2.8649563559000923
+  },
+  "timestamp": "2025-01-25T12:15:44.534036",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "two closed doors",
+        "portion of a wall",
+        "floor surface"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "light-colored wall",
+        "floor",
+        "sign on the wall",
+        "storage cabinets"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

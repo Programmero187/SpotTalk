@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "seemly-sloth-LxUip.kLJP0sjasOZnohwA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -0.9716030183964465,
+    "y": -7.082218434487837,
+    "z": -0.6659011941643994
+  },
+  "timestamp": "2025-02-07T13:31:55.057958",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "door",
+        "fire extinguisher",
+        "bed or table on wheels"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "white wall",
+        "floor",
+        "door handle",
+        "corner of another door"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

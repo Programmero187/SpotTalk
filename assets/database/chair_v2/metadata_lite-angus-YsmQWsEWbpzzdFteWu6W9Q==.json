@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "lite-angus-YsmQWsEWbpzzdFteWu6W9Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -14.007338704852085,
+    "y": 5.26956839332151,
+    "z": -2.7225003063662787
+  },
+  "timestamp": "2025-01-25T12:20:31.963871",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "doors",
+        "lighting fixtures",
+        "walls",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "long hallway",
+        "posters on the wall",
+        "doors along the hallway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

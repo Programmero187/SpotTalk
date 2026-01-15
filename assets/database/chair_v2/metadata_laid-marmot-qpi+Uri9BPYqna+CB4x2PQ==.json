@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "laid-marmot-qpi+Uri9BPYqna+CB4x2PQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 21.046860141516262,
+    "y": -28.003972893442597,
+    "z": -1.4440568001229748
+  },
+  "timestamp": "2025-01-25T12:20:20.306746",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "door",
+        "lighting fixtures",
+        "artwork on walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wall",
+        "carpet",
+        "electrical outlet"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

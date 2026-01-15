@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "tarry-vixen-5C5e4MwXStvFVaN5HhjF2w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.0258705824278158,
+    "y": 5.703932401114852,
+    "z": -2.6906734059161472
+  },
+  "timestamp": "2025-01-25T12:26:03.531917",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevators",
+        "floor tiles",
+        "person walking",
+        "walls",
+        "lighting fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "person standing near the elevator",
+        "flat floor surface",
+        "white walls",
+        "corner of a wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

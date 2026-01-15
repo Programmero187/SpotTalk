@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "myriad-conch-.zU+0VXrKYkiBgIAlZ2NxA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -7.3854753643820645,
+    "y": 2.419197297832666,
+    "z": -2.6983972163521406
+  },
+  "timestamp": "2025-01-25T12:21:22.151148",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark door",
+        "white wall",
+        "mirrored surface",
+        "floor tiles",
+        "elevator sign"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a person standing near a wall",
+        "a glass door",
+        "dark corridor",
+        "floor tiles",
+        "white walls",
+        "air vent or symbol on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "aweary-gadfly-S7JqUm5sPgCQD8Cjt3WeyQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -4.598510632973931,
+    "y": 3.990996328989047,
+    "z": -2.737317690086823
+  },
+  "timestamp": "2025-01-25T12:14:26.095276",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark door",
+        "glass doors",
+        "staircase",
+        "tile floor",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevators",
+        "walls",
+        "floor tiles",
+        "person standing",
+        "doors"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

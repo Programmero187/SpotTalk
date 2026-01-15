@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "eighth-wren-tEqT.HcBYp6+kEJ6rv2eWQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -7.462580599881824,
+    "y": 4.676486918256548,
+    "z": -2.663351268482483
+  },
+  "timestamp": "2025-01-25T12:16:31.541432",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "solid floor",
+        "closed door",
+        "sign with symbol"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "floor tiles",
+        "person's legs",
+        "electrical outlet or sign"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

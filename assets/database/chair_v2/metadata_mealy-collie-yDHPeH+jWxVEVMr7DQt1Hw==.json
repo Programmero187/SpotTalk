@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "mealy-collie-yDHPeH+jWxVEVMr7DQt1Hw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 2.611742199504873,
+    "y": 5.581142300382756,
+    "z": -2.701110064016957
+  },
+  "timestamp": "2025-01-25T12:21:01.064903",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "glass door",
+        "floor",
+        "reflections",
+        "light fixtures",
+        "walls",
+        "person (in reflection)"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "glass mirrors",
+        "person",
+        "floor",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

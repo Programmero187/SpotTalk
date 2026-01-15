@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "deft-afghan-19zPzU2FWctJV4X4mKwohw==",
+  "location": "office",
+  "coordinates": {
+    "x": -1.086099689243284,
+    "y": -23.872251023375068,
+    "z": -0.4339193661849193
+  },
+  "timestamp": "2025-02-07T13:19:47.203944",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "chair",
+        "table",
+        "doorway",
+        "floor",
+        "fire extinguisher"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wooden wall",
+        "floor",
+        "doorway",
+        "fire extinguisher",
+        "television",
+        "chair"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "aloof-hogg-zdEemOb.7fjMdMKuItjdHw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 14.916020198408765,
+    "y": 19.330776633344207,
+    "z": 0.0523606945486048
+  },
+  "timestamp": "2025-02-07T13:15:56.344954",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "light",
+        "floor",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a piece of paper with a black-and-white pattern",
+        "a wall",
+        "a floor with a dark surface"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

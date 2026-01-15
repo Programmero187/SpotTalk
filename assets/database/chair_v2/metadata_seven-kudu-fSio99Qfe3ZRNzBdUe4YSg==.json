@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "seven-kudu-fSio99Qfe3ZRNzBdUe4YSg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -7.75520002724471,
+    "y": -4.652647280010056,
+    "z": -2.5183128145483455
+  },
+  "timestamp": "2025-01-25T12:24:26.886928",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "glass door",
+        "floor tiles",
+        "wall",
+        "reflected light"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "sign"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

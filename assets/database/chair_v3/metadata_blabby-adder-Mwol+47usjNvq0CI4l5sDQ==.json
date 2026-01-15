@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "blabby-adder-Mwol+47usjNvq0CI4l5sDQ==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -4.325999391916602,
+    "y": 5.876331508607625,
+    "z": -0.7430429685289023
+  },
+  "timestamp": "2025-02-07T13:17:43.322954",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "KUKA robotic arm",
+        "floor",
+        "walls",
+        "windows"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "chalkboard",
+        "dark cloth or blanket",
+        "floor markings"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

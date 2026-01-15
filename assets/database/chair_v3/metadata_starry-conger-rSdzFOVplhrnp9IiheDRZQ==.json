@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "starry-conger-rSdzFOVplhrnp9IiheDRZQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -26.95935485672571,
+    "y": 1.3660690049081352,
+    "z": -0.6162286665117398
+  },
+  "timestamp": "2025-02-07T13:33:15.544762",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "light fixtures",
+        "table"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "smooth floor",
+        "white walls",
+        "posters or frames on the walls",
+        "doorway",
+        "lights on the ceiling"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

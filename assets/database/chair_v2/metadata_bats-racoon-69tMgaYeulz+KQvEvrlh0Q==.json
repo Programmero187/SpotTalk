@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "bats-racoon-69tMgaYeulz+KQvEvrlh0Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 0.9565469431777842,
+    "y": 6.522151004081973,
+    "z": -2.7491365272874373
+  },
+  "timestamp": "2025-01-25T12:14:44.016288",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "mirror",
+        "white wall",
+        "dark floor",
+        "squared electrical outlet",
+        "corner of a desk or table"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "mirrors",
+        "door",
+        "floor",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "untold-whale-U2FtGbo4qZyRN4Iv0R3wtQ==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": 12.887676970258383,
+    "y": -17.04221566801971,
+    "z": -1.9251003398047564
+  },
+  "timestamp": "2025-01-25T12:26:55.986583",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "kitchen cabinets",
+        "corner of a wall",
+        "drawer handle",
+        "shadow"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a person wearing black pants and a plaid shirt",
+        "dark doors",
+        "a white wall",
+        "a corner of a flat floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

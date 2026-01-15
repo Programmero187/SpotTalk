@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "pink-lamb-4HYCD1m09wZ86B5EkrMuVQ==",
+  "location": "study room",
+  "coordinates": {
+    "x": 1.6467544199145412,
+    "y": 1.2351266712751419,
+    "z": -1.2958182632813005
+  },
+  "timestamp": "2025-02-07T13:28:42.544021",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "chairs",
+        "table",
+        "whiteboard",
+        "person standing"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "clock on the wall",
+        "open door",
+        "fire extinguisher on the wall",
+        "chair",
+        "set of boxes",
+        "whiteboard",
+        "flooring"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

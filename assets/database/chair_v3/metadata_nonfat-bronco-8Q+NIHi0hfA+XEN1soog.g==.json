@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "nonfat-bronco-8Q+NIHi0hfA+XEN1soog.g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -6.2896101695849165,
+    "y": 6.788752360212703,
+    "z": -0.9229404712552634
+  },
+  "timestamp": "2025-02-07T13:27:06.494535",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "gray floor tiles",
+        "white wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "container or bag on the floor",
+        "wall",
+        "flooring"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

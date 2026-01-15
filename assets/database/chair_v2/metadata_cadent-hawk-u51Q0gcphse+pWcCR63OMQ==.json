@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "cadent-hawk-u51Q0gcphse+pWcCR63OMQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 10.533228391600138,
+    "y": -8.660718351497728,
+    "z": -1.7894339169641627
+  },
+  "timestamp": "2025-01-25T12:14:55.576743",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "a person walking",
+        "glass doors",
+        "a wall",
+        "a railing",
+        "a table edge"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "person standing near a door",
+        "second person walking in the background",
+        "tile floor",
+        "door frame"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

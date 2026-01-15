@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "overt-pigeon-yueswXlK4drRaRhFf21QXw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 3.929792008876667,
+    "y": -1.6124662709260495,
+    "z": -1.7664126644691411
+  },
+  "timestamp": "2025-01-25T12:21:59.121287",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "white lockers",
+        "wooden flooring",
+        "doorway",
+        "some indistinct furniture in the background"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "table",
+        "floor",
+        "walls",
+        "doors",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

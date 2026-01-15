@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "salt-jaguar-xhYpu5ku98QYyzKeNaV5pw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 0.06883893837484381,
+    "y": -3.3280507015449774,
+    "z": -2.8322360910500017
+  },
+  "timestamp": "2025-01-25T12:23:58.933609",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark door",
+        "light-colored cabinet with knobs",
+        "floor surface"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "table",
+        "floor",
+        "door",
+        "fire extinguisher",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

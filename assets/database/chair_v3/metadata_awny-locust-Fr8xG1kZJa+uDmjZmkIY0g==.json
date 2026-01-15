@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "awny-locust-Fr8xG1kZJa+uDmjZmkIY0g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 24.923433821245315,
+    "y": -10.027512385954704,
+    "z": 0.5544284353734499
+  },
+  "timestamp": "2025-02-07T13:16:44.178074",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "hallway",
+        "fire extinguisher",
+        "doors",
+        "light fixtures",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "white walls",
+        "flooring",
+        "wall art",
+        "light fixtures",
+        "door handles"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

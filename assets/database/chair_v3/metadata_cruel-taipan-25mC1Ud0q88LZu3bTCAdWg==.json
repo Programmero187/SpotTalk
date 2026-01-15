@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "cruel-taipan-25mC1Ud0q88LZu3bTCAdWg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.7850775798205811,
+    "y": 3.940625685125663,
+    "z": -0.8893443385639684
+  },
+  "timestamp": "2025-02-07T13:19:29.072547",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "table",
+        "transparent doors",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "white cabinets",
+        "flooring",
+        "mirrored surface"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

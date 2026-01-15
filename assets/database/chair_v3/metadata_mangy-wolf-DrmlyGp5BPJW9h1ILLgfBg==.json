@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "mangy-wolf-DrmlyGp5BPJW9h1ILLgfBg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 0.4066658066158973,
+    "y": -35.809357095737994,
+    "z": -0.08183950278629003
+  },
+  "timestamp": "2025-02-07T13:25:31.981681",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "doorway",
+        "wall-mounted poster",
+        "QR code sticker"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "corner of the room",
+        "power outlet with a design on it",
+        "floor with a matte finish"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "bared-pug-5N3zxdgBMIZWMtX6EW+Ndw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 24.365828695088346,
+    "y": -11.62912804398456,
+    "z": -1.9367197461794188
+  },
+  "timestamp": "2025-01-25T12:14:37.973185",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "fire extinguisher",
+        "light fixtures",
+        "doors",
+        "picture frames"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "hallway",
+        "floor",
+        "light fixtures",
+        "walls",
+        "artwork on wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

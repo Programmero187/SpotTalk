@@ -1,0 +1,36 @@
+{
+  "waypoint_id": "angled-shrimp-bFW5gH5h1slN96hAyOg1lw==",
+  "location": "office",
+  "coordinates": {
+    "x": -23.9193414196777,
+    "y": -0.46006273028251116,
+    "z": -0.33067946767128303
+  },
+  "timestamp": "2025-02-07T13:16:23.688748",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "two black chairs",
+        "white desk",
+        "plant in a pot",
+        "shelves",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "office furniture",
+        "desk",
+        "chair",
+        "coat rack with coats",
+        "whiteboard",
+        "plant",
+        "storage unit",
+        "floor",
+        "waste bin"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

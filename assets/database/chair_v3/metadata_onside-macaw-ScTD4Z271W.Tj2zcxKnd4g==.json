@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "onside-macaw-ScTD4Z271W.Tj2zcxKnd4g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 31.743317365017262,
+    "y": -7.274667387076161,
+    "z": -0.038436773613997936
+  },
+  "timestamp": "2025-02-07T13:27:24.414964",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "lighting fixtures",
+        "doors",
+        "plug socket"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "painted walls",
+        "floors",
+        "light fixtures",
+        "framed pictures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

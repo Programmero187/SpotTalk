@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "bovine-newt-6d+mR5gmqrwfM9JYWzDNlA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 27.743077414105016,
+    "y": -7.931133173362829,
+    "z": 0.48449944723248173
+  },
+  "timestamp": "2025-02-07T13:18:00.559763",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "doors",
+        "wall art",
+        "light fixtures",
+        "flooring"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "door",
+        "hallway",
+        "light fixtures",
+        "posters"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

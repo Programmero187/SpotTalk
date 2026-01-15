@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "smelly-borzoi-6z8e0QdazONRhqPhFQCZfg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 32.132247948328725,
+    "y": -11.235283286337983,
+    "z": 0.5851714117952247
+  },
+  "timestamp": "2025-02-07T13:32:39.294521",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "lights",
+        "doors",
+        "posters or artwork on walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "hallway floor",
+        "wall",
+        "lighting",
+        "pictures on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

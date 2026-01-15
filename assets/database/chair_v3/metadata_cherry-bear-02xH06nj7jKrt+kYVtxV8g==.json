@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "cherry-bear-02xH06nj7jKrt+kYVtxV8g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -16.47007491967271,
+    "y": 18.140138062151127,
+    "z": 1.2364116630674142
+  },
+  "timestamp": "2025-02-07T13:18:42.999672",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "white walls",
+        "ceiling lights",
+        "dark floor",
+        "closed door",
+        "framed pictures on the wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "corner of a wall",
+        "flooring",
+        "lighting source",
+        "doorway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

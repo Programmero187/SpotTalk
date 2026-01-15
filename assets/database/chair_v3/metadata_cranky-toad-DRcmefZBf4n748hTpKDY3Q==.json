@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "cranky-toad-DRcmefZBf4n748hTpKDY3Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -2.9851435590485864,
+    "y": -6.9597736994451385,
+    "z": -0.9566997389309564
+  },
+  "timestamp": "2025-02-07T13:19:16.790392",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "open door",
+        "person walking",
+        "dark floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black floor",
+        "two doors (one closed)",
+        "fire extinguisher on the wall",
+        "wall with electrical panel"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

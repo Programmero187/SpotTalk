@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "cogged-hornet-tha+qqY4PH9nAFkv8UQQUg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -33.96873060371527,
+    "y": 0.7952358647117005,
+    "z": -2.3964650403219396
+  },
+  "timestamp": "2025-01-25T12:15:13.818978",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "white wall",
+        "fire extinguisher",
+        "door"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "wall",
+        "corner",
+        "number plaque"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

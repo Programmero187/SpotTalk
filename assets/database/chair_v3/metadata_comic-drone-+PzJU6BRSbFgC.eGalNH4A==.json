@@ -1,0 +1,34 @@
+{
+  "waypoint_id": "comic-drone-+PzJU6BRSbFgC.eGalNH4A==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 29.672055835968365,
+    "y": -7.409329800772889,
+    "z": 0.07781177664200124
+  },
+  "timestamp": "2025-02-07T13:19:02.351367",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "hallway",
+        "light fixtures",
+        "walls",
+        "floor",
+        "object on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "long hallway",
+        "floor",
+        "white walls",
+        "light fixtures",
+        "posters on walls",
+        "door to the right",
+        "doors at the end of the hallway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

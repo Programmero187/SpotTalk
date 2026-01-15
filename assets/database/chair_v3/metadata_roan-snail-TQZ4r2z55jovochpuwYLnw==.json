@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "roan-snail-TQZ4r2z55jovochpuwYLnw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -2.195551223177094,
+    "y": -0.19348069386797126,
+    "z": -1.3299078838060132
+  },
+  "timestamp": "2025-02-07T13:30:17.982937",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "table",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "glass door",
+        "floor",
+        "light on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

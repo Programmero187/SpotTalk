@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "boiled-bear-xCWeEaYaKffz2E+us+rsEA==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": 8.450632325939647,
+    "y": 6.034973309214943,
+    "z": -0.6142469216117129
+  },
+  "timestamp": "2025-02-07T13:17:54.371733",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a dark object or material on the floor",
+        "wall",
+        "flooring with visible patterns"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor with lines",
+        "people standing",
+        "covered object",
+        "walls",
+        "furniture"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

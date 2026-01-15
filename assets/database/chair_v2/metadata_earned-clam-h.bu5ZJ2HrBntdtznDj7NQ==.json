@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "earned-clam-h.bu5ZJ2HrBntdtznDj7NQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 10.660714707027482,
+    "y": -10.799578252983007,
+    "z": -2.02381036883347
+  },
+  "timestamp": "2025-01-25T12:16:19.249853",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "doorway",
+        "flooring",
+        "walls",
+        "light fixtures",
+        "two figures standing"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "door",
+        "person"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

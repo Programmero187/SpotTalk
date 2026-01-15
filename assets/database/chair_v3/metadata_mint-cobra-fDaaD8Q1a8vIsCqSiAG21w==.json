@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "mint-cobra-fDaaD8Q1a8vIsCqSiAG21w==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -6.054112373500479,
+    "y": -5.189821667928809,
+    "z": -1.1834460377882283
+  },
+  "timestamp": "2025-02-07T13:26:19.087501",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a machine with a QR code on its side",
+        "a seat or chair in the background",
+        "windows providing natural light"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "robot or machine with QR codes",
+        "black backdrop",
+        "floor surface",
+        "possible grips or handles on the machine"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

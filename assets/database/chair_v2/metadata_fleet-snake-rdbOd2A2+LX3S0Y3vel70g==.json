@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "fleet-snake-rdbOd2A2+LX3S0Y3vel70g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -4.561996347448264,
+    "y": -1.9039630814408874,
+    "z": -2.8848277179859854
+  },
+  "timestamp": "2025-01-25T12:18:40.874218",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "corner wall",
+        "black and white square pattern",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark doors",
+        "fire extinguisher",
+        "wall",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

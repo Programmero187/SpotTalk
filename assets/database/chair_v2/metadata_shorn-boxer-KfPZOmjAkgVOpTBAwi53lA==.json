@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "shorn-boxer-KfPZOmjAkgVOpTBAwi53lA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 29.440421920185525,
+    "y": -8.716108281311087,
+    "z": -2.1991548435183907
+  },
+  "timestamp": "2025-01-25T12:24:36.003498",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "smooth floor",
+        "white walls",
+        "light fixtures",
+        "doorway",
+        "corner"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "white walls",
+        "flooring",
+        "door",
+        "light fixtures",
+        "posters or notices on the walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

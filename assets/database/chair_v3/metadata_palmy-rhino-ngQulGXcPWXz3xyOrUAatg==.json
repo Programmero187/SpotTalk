@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "palmy-rhino-ngQulGXcPWXz3xyOrUAatg==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -6.153903738851518,
+    "y": 10.104279665300055,
+    "z": -0.44653391765805134
+  },
+  "timestamp": "2025-02-07T13:27:46.636757",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark surfaces",
+        "possible shadows",
+        "a small white object",
+        "walls or panels"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "light reflections",
+        "walls",
+        "boxes or panels"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "sylvan-cub-RPf.7E74LrwVB2iZ.wxi2A==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 18.134328931041704,
+    "y": -2.5979974048838925,
+    "z": 0.12497058747719308
+  },
+  "timestamp": "2025-02-07T13:33:59.784189",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a dark door",
+        "a wall",
+        "a corner",
+        "a floor",
+        "baseboard"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doors",
+        "hallway",
+        "flooring",
+        "lights",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

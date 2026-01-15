@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "snazzy-hyena-8AV7bbp3QGJ+hncU4oEWww==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 18.400773188757146,
+    "y": -8.614710305610684,
+    "z": -1.9606265643458838
+  },
+  "timestamp": "2025-01-25T12:24:59.551929",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "doors",
+        "light fixtures",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "frame",
+        "door",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

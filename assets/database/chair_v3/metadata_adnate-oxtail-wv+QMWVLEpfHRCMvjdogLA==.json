@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "adnate-oxtail-wv+QMWVLEpfHRCMvjdogLA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 14.7911540241475,
+    "y": 16.613457927952258,
+    "z": -0.5968419745208002
+  },
+  "timestamp": "2025-02-07T13:14:53.783254",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "black object (possibly a wall or appliance)",
+        "light from a window or overhead light",
+        "white surfaces (possibly cabinets or walls)"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "hallway",
+        "doorway",
+        "emergency exit sign",
+        "flooring",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

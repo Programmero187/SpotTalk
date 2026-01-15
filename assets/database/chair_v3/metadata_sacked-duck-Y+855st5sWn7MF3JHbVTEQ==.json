@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "sacked-duck-Y+855st5sWn7MF3JHbVTEQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 9.072014536187847,
+    "y": 2.049000417071251,
+    "z": 0.3708877841972033
+  },
+  "timestamp": "2025-02-07T13:31:15.771592",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevators",
+        "glass wall",
+        "floor tiles"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass door",
+        "floor",
+        "walls",
+        "curtains"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

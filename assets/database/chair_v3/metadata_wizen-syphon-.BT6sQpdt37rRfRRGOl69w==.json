@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "wizen-syphon-.BT6sQpdt37rRfRRGOl69w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -24.982899074832144,
+    "y": -0.8004301917671622,
+    "z": -0.44821701546162807
+  },
+  "timestamp": "2025-02-07T13:38:15.065937",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "corner of a wall",
+        "dark door",
+        "light on the wall",
+        "white wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "hallway",
+        "floor",
+        "walls",
+        "posters or frames on walls",
+        "doors"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

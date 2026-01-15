@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "soaked-locust-bv0eSkTSGSBDjQW5iQXj9w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.6728208940579248,
+    "y": 6.306843079259836,
+    "z": -2.7318919260099284
+  },
+  "timestamp": "2025-01-25T12:25:12.048136",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "mirrored doors",
+        "black floor",
+        "electric outlet",
+        "white wall",
+        "corner of a sofa or chair"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "mirror",
+        "glass doors",
+        "wall",
+        "light fixtures",
+        "shadows"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

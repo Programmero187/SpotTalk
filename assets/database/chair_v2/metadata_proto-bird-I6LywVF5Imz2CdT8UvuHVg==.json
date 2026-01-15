@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "proto-bird-I6LywVF5Imz2CdT8UvuHVg==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": 1.5370047346982367,
+    "y": -21.1586607064944,
+    "z": -1.8421028438707043
+  },
+  "timestamp": "2025-01-25T12:22:55.855265",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "legs",
+        "white shoes",
+        "floor",
+        "door",
+        "elevators panel"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black table",
+        "two closed doors",
+        "wall",
+        "a faint outline of a poster or map"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

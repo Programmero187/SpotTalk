@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "gonzo-canine-oto4I1f1aCf+YrSdhQHOVQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 5.457943383225411,
+    "y": 1.6882487644316762,
+    "z": -0.9355575567190884
+  },
+  "timestamp": "2025-02-07T13:22:56.775046",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "doorway",
+        "lockers",
+        "lighting",
+        "tables",
+        "chairs"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "white cabinet doors",
+        "floor surface"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

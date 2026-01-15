@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "rimmed-manx-cqZo3I14hyNTnpGyKQgkRA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -31.65382966084452,
+    "y": 4.112974444741384,
+    "z": -0.43086697616791564
+  },
+  "timestamp": "2025-02-07T13:30:12.146030",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "pillar",
+        "table base"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "wall",
+        "plant",
+        "light",
+        "exit indicator"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

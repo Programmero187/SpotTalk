@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "twilit-cocoon-cZlNGq2nYWL4kvYvE.n5og==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 31.524980995696588,
+    "y": -5.023058486264334,
+    "z": -1.9506296198262718
+  },
+  "timestamp": "2025-01-25T12:26:32.618591",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "light fixtures overhead",
+        "wall with electrical outlet",
+        "flooring"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "walls",
+        "floor",
+        "ceiling lights",
+        "framed pictures or artwork",
+        "doorway",
+        "signs"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

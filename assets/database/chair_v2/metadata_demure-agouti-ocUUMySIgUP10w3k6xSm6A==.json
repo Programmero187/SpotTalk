@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "demure-agouti-ocUUMySIgUP10w3k6xSm6A==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": 9.789073047030005,
+    "y": -19.288410270090278,
+    "z": -1.9978537237219764
+  },
+  "timestamp": "2025-01-25T12:15:59.900917",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "person's legs",
+        "floor",
+        "corner of a wall",
+        "kitchen cabinets",
+        "drawer handle"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black doors",
+        "person's legs",
+        "floor",
+        "part of a wall",
+        "edge of a piece of furniture"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "roving-condor-wShYLDaMKIWTktKG+Ph5Ww==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -31.884788024214284,
+    "y": 2.218476499868314,
+    "z": -2.3728584879335277
+  },
+  "timestamp": "2025-01-25T12:23:39.784374",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "pole with a base",
+        "corner of a wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "white wall",
+        "corner of the room",
+        "floor",
+        "light beam"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

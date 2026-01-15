@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "moire-squid-ysUfFKpdy33IAf1Qh7JO3w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 3.5735145176447287,
+    "y": 24.253668790734448,
+    "z": -0.17987983791260334
+  },
+  "timestamp": "2025-02-07T13:26:32.807877",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "doorway",
+        "light source",
+        "floor",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wall",
+        "floor",
+        "outlet",
+        "light",
+        "door"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

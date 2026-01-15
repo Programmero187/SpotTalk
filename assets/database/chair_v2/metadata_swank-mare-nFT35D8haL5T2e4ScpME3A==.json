@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "swank-mare-nFT35D8haL5T2e4ScpME3A==",
+  "location": "office",
+  "coordinates": {
+    "x": 2.512709736319128,
+    "y": -0.668390194045551,
+    "z": -2.9663073894508463
+  },
+  "timestamp": "2025-01-25T12:25:45.635934",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "person standing",
+        "black cases",
+        "wall",
+        "clock",
+        "whiteboard",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a door",
+        "a microphone stand",
+        "a black case",
+        "chairs",
+        "branded posters on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

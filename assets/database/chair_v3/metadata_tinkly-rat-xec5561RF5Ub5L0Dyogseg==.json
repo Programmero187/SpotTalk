@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "tinkly-rat-xec5561RF5Ub5L0Dyogseg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -10.4050358518098,
+    "y": -21.411111638205476,
+    "z": -0.9705367269154155
+  },
+  "timestamp": "2025-02-07T13:34:11.351202",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "hallway",
+        "door",
+        "wall",
+        "floor",
+        "fire extinguisher",
+        "light",
+        "electrical outlet"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "person holding a laptop",
+        "fire extinguisher",
+        "white wall",
+        "dark flooring"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "swept-fleece-SvSSoD4JURyKgboAO5VQhw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 4.090079369735567,
+    "y": -4.367726360019959,
+    "z": -1.6802215064833623
+  },
+  "timestamp": "2025-01-25T12:25:51.367180",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "door",
+        "table",
+        "lockers",
+        "wall",
+        "light fixture"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass door",
+        "reflective surfaces",
+        "table",
+        "floor tiles"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

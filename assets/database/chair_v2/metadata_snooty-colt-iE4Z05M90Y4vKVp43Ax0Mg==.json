@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "snooty-colt-iE4Z05M90Y4vKVp43Ax0Mg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 16.756408833960684,
+    "y": 13.377700919474284,
+    "z": -2.122931498468464
+  },
+  "timestamp": "2025-01-25T12:25:05.796550",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "kitchen cabinets",
+        "kitchen counter",
+        "sink",
+        "trash can",
+        "coffee maker",
+        "floor",
+        "wall picture of a landscape"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "floor",
+        "wall",
+        "corner of a wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

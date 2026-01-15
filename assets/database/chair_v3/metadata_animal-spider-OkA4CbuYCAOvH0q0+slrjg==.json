@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "animal-spider-OkA4CbuYCAOvH0q0+slrjg==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -10.64257463825433,
+    "y": -0.006135702322250795,
+    "z": -0.992721170975438
+  },
+  "timestamp": "2025-02-07T13:16:30.029479",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a radiator",
+        "a wall",
+        "an electrical outlet",
+        "a piece of paper with a symbol or logo"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black floor",
+        "tripod",
+        "dark panels",
+        "dotted line on floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

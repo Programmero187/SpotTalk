@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "gammy-sheep-RCKydUqmZn5qGG8iABFMwg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.2550721798493447,
+    "y": 6.186739976855881,
+    "z": -2.6820112947422885
+  },
+  "timestamp": "2025-01-25T12:18:58.478010",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevator doors",
+        "person standing",
+        "floors tiles",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevators",
+        "person's lower body",
+        "white walls",
+        "floor tiles"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

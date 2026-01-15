@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "flash-mammut-sH9Z7ZSpp76yD7.ZXXtwKA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -23.345307094703628,
+    "y": -26.15725595504945,
+    "z": 1.8784784640419643
+  },
+  "timestamp": "2025-02-07T13:21:28.017302",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "two closed doors",
+        "fire extinguisher",
+        "smooth floor",
+        "bright ceiling lights",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "bare wall",
+        "carpeted floor",
+        "wall socket",
+        "part of a chair or object"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

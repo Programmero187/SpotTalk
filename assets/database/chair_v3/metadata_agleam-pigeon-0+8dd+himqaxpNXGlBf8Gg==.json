@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "agleam-pigeon-0+8dd+himqaxpNXGlBf8Gg==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -6.050854471645839,
+    "y": 2.8789557174551526,
+    "z": -0.7645266994081916
+  },
+  "timestamp": "2025-02-07T13:15:11.923898",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "KUKA robotic arm",
+        "worktable",
+        "floor",
+        "windows",
+        "cables"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "blackboard",
+        "KUKA robot",
+        "blanket or fabric",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

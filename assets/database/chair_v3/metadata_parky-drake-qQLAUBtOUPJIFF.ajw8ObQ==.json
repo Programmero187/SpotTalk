@@ -1,0 +1,34 @@
+{
+  "waypoint_id": "parky-drake-qQLAUBtOUPJIFF.ajw8ObQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 25.114546182919785,
+    "y": -7.485491860155325,
+    "z": 0.30494335731827976
+  },
+  "timestamp": "2025-02-07T13:27:59.555346",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "smooth floor",
+        "walls",
+        "doorway",
+        "light fixtures",
+        "hallway",
+        "baseboards"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "power outlet",
+        "floor",
+        "walls",
+        "doors",
+        "lighting on the ceiling",
+        "frame of a picture or a map"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

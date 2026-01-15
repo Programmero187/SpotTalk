@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "bantam-rhino-r+SgwqW+SZ0oXzgbsuv5sA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -16.518408560491167,
+    "y": 6.38309745728683,
+    "z": -0.5754283327942036
+  },
+  "timestamp": "2025-02-07T13:17:04.541864",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a crate labeled 'CLUB-MATE'",
+        "a hallway",
+        "fluorescent ceiling lights",
+        "doors on either side of the hallway"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "doors",
+        "posters",
+        "lighting fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

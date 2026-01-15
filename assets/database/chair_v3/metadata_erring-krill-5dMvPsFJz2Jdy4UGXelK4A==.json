@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "erring-krill-5dMvPsFJz2Jdy4UGXelK4A==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -33.05610620262223,
+    "y": -9.251386312486813,
+    "z": -0.14829116453726296
+  },
+  "timestamp": "2025-02-07T13:20:33.179804",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "walls",
+        "doors",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "open door",
+        "floor",
+        "wall",
+        "mounting for a clock or something",
+        "shadow"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

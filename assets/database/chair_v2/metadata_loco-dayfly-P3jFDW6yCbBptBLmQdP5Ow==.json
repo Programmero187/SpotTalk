@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "loco-dayfly-P3jFDW6yCbBptBLmQdP5Ow==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 12.424328221180028,
+    "y": -14.184610790199988,
+    "z": -1.8362485718443236
+  },
+  "timestamp": "2025-01-25T12:20:43.651715",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long corridor",
+        "light fixtures",
+        "doors on both sides",
+        "smooth floor surface",
+        "exit door at the end"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "door",
+        "electrical outlet",
+        "sign"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

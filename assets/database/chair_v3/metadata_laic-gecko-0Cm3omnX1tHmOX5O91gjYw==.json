@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "laic-gecko-0Cm3omnX1tHmOX5O91gjYw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 12.076265893534565,
+    "y": -8.85892432171803,
+    "z": 0.12950733902913952
+  },
+  "timestamp": "2025-02-07T13:25:01.978192",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "corner of a room",
+        "flooring",
+        "a wall",
+        "a white square with a black pattern on it",
+        "a mirror or reflective surface",
+        "light reflections on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "door",
+        "light",
+        "open doorway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "brainy-mammut-YxtjgbLutnbi2ys3ojfelw==",
+  "location": "study room",
+  "coordinates": {
+    "x": 0.4636969509497802,
+    "y": -1.8436020365130699,
+    "z": 0.5584819133131185
+  },
+  "timestamp": "2025-02-07T13:18:06.746796",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "black chair",
+        "black furniture (possibly a cabinet or a table)",
+        "light floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "light stand",
+        "sliding door",
+        "black box (possibly a speaker)",
+        "white wall",
+        "projector screen"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

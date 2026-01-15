@@ -1,0 +1,36 @@
+{
+  "waypoint_id": "elder-kiwi-Le4W6v.V5PJcvjIUtUh90w==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": 6.841208062623963,
+    "y": -3.406001845824556,
+    "z": -1.0416546718075983
+  },
+  "timestamp": "2025-02-07T13:20:16.077344",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "person holding a clipboard",
+        "tripod",
+        "ladder",
+        "television or monitor",
+        "white wall",
+        "floor",
+        "folding screen"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "window",
+        "table",
+        "chair",
+        "monitor",
+        "shelves",
+        "floor",
+        "cables"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

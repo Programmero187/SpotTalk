@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "milky-owl-8rbTW9Gk0J.ts2R5Q7GOYQ==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": -13.280983889321186,
+    "y": -17.57122733471439,
+    "z": -2.0771984105821617
+  },
+  "timestamp": "2025-01-25T12:21:15.017236",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "table leg",
+        "bar stool",
+        "flooring",
+        "corner wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "bar stool",
+        "gray wall panels",
+        "black floor",
+        "corner of a partition"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

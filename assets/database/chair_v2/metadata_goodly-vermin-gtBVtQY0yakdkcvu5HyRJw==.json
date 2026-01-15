@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "goodly-vermin-gtBVtQY0yakdkcvu5HyRJw==",
+  "location": "office",
+  "coordinates": {
+    "x": -0.6686545164102135,
+    "y": -2.388369162399896,
+    "z": -2.9937868504124436
+  },
+  "timestamp": "2025-01-25T12:19:23.776820",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a piece of paper with a pattern on it (possibly a QR code or marker)",
+        "a white cabinet or storage unit",
+        "a tripod or stand",
+        "a stack of papers or books",
+        "a part of a table or workspace surface"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "microphone stand",
+        "paper with black design",
+        "floor",
+        "unknown equipment"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

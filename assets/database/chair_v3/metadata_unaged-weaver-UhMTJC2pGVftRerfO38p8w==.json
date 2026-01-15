@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "unaged-weaver-UhMTJC2pGVftRerfO38p8w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 5.858597813941646,
+    "y": 2.6843459276145842,
+    "z": -0.7405483220678302
+  },
+  "timestamp": "2025-02-07T13:35:02.041389",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "table",
+        "floor",
+        "doorway",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "lockers",
+        "door",
+        "floor",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

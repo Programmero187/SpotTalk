@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "alike-hyrax-7z0I79.ZhPTNjm53k.1TTw==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -9.147079350262704,
+    "y": 7.193742113294092,
+    "z": -1.0984389734558873
+  },
+  "timestamp": "2025-02-07T13:15:43.651061",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor surface",
+        "vertical wall",
+        "lighting fixtures",
+        "shadow patterns",
+        "small window or opening",
+        "sign with a number or letter"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "three-legged stand",
+        "part of a wall",
+        "floor surface with marks"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

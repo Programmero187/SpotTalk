@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "pyknic-larva-aF8lIYA.M0Z4ofe9Smc0Dw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -4.297925221062443,
+    "y": 4.869593335691428,
+    "z": -0.6612084717537912
+  },
+  "timestamp": "2025-02-07T13:29:44.393344",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "glass panel doors",
+        "staircase",
+        "floor tiles",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevators",
+        "doors",
+        "floor tiles",
+        "walls",
+        "lighting fixtures",
+        "trash can"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

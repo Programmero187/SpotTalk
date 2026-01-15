@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "okay-monkey-dKyIYmoOPPwaoBIackwsPQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 5.326538395130868,
+    "y": -35.493631515890485,
+    "z": -2.2226320603236354
+  },
+  "timestamp": "2025-01-25T12:21:42.495645",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "wall",
+        "stairs",
+        "window",
+        "floor",
+        "poster or sign"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "fire extinguisher",
+        "white wall",
+        "flooring"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

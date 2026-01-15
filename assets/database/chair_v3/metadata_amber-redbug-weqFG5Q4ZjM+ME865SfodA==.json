@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "amber-redbug-weqFG5Q4ZjM+ME865SfodA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -8.130986018231706,
+    "y": 4.845431688182654,
+    "z": -0.7291465822423907
+  },
+  "timestamp": "2025-02-07T13:16:05.304410",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "toy vehicle",
+        "pull stick",
+        "wall",
+        "QR code or similar marker",
+        "doorway"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass door",
+        "black tiled floor",
+        "toy car"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "enate-chimp-PQprYCQJEhodp1ZpP7CRYQ==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -6.601976408115522,
+    "y": 2.124172385019196,
+    "z": 1.1920035572015506
+  },
+  "timestamp": "2025-02-07T13:20:22.221265",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "large photocopier",
+        "table",
+        "computer monitor",
+        "windows",
+        "black wall",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "KUKA robotic arm",
+        "floor",
+        "large wall panels",
+        "chalkboard or screen on the wall",
+        "windows"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

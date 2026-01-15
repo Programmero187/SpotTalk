@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "ruly-puffer-yYb1f42uyJbVIxlY8.nxyg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 9.162626076126429,
+    "y": -7.546086322825229,
+    "z": 0.47002244087523704
+  },
+  "timestamp": "2025-02-07T13:30:40.710781",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "glass doors",
+        "floor tiles",
+        "reflections",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "staircase",
+        "handrail",
+        "floor tiles",
+        "glass door",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

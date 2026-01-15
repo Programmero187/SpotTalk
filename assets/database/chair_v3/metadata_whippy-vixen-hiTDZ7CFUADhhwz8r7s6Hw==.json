@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "whippy-vixen-hiTDZ7CFUADhhwz8r7s6Hw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 2.375539572303739,
+    "y": -23.547981114067287,
+    "z": -0.31214601056997354
+  },
+  "timestamp": "2025-02-07T13:37:53.969556",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "bare walls",
+        "floor",
+        "corner",
+        "person standing"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a person holding a laptop",
+        "a fire extinguisher on the wall",
+        "a hallway leading to another room"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "foiled-embryo-mI4DlLsz1jkI7xLmDHcLCg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -5.881008500495596,
+    "y": 5.77481162240382,
+    "z": -2.852907835629331
+  },
+  "timestamp": "2025-01-25T12:18:53.779431",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "barcode or QR code on paper",
+        "concrete wall",
+        "floor with dark surface",
+        "shadow cast on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "grey wall",
+        "door with knob",
+        "storage lockers",
+        "torque-shaped sticker or symbol"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

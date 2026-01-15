@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "fourth-badger-p9.Y6qyTgIvECDzSl9XyrA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 2.582534508830446,
+    "y": 0.6881440207094768,
+    "z": 0.585110768294813
+  },
+  "timestamp": "2025-02-07T13:22:19.675662",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "walls",
+        "floor",
+        "windows",
+        "furniture",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "light source",
+        "chairs",
+        "table"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

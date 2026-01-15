@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "sly-flea-uA1BUnsjCyeYYx2ccKkKsQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 7.1685868207233705,
+    "y": -2.7385275840698915,
+    "z": -1.8624920073331468
+  },
+  "timestamp": "2025-01-25T12:24:54.227751",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "elevator door",
+        "mirror",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass doors",
+        "table",
+        "floor tiles",
+        "light fixtures",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

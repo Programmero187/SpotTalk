@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "unmown-wrasse-vXHlftze7S184+MtmtwVqQ==",
+  "location": "study room",
+  "coordinates": {
+    "x": -1.4600225081018812,
+    "y": 2.221441834931554,
+    "z": -1.3435533586053898
+  },
+  "timestamp": "2025-02-07T13:35:28.663834",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "power outlet",
+        "cords",
+        "floor surface",
+        "wall",
+        "horizontal surface"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "cables",
+        "wall",
+        "table"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

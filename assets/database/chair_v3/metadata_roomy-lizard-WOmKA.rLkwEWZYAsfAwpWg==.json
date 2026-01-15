@@ -1,0 +1,34 @@
+{
+  "waypoint_id": "roomy-lizard-WOmKA.rLkwEWZYAsfAwpWg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -19.164814602117993,
+    "y": 4.251018235680818,
+    "z": -0.7169156780092536
+  },
+  "timestamp": "2025-02-07T13:30:27.826183",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long corridor",
+        "lighting fixtures on ceiling",
+        "white walls",
+        "black floor",
+        "door frames",
+        "trash bin"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "white walls",
+        "flooring",
+        "light fixtures",
+        "hallway",
+        "door frames"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

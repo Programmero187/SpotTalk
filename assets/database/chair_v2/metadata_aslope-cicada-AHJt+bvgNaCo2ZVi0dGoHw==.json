@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "aslope-cicada-AHJt+bvgNaCo2ZVi0dGoHw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -10.281619909467917,
+    "y": -33.987277600613986,
+    "z": -2.512437553629223
+  },
+  "timestamp": "2025-01-25T12:14:12.469258",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "two doors",
+        "mirrored wall",
+        "coat rack",
+        "sign on wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "wall",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

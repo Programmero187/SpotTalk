@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "abroad-snake-DXoNmAN3F6vJfIJC9w6SQg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -6.382820731709478,
+    "y": 3.430119599730025,
+    "z": -0.7574080347487266
+  },
+  "timestamp": "2025-02-07T13:14:36.785662",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a hallway",
+        "closed doors",
+        "a small object on the floor",
+        "lighting fixtures",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator",
+        "doors",
+        "walls",
+        "floor tiles",
+        "light fixtures",
+        "paintings or wall art"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

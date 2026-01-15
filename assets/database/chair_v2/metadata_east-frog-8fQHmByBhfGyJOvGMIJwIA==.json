@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "east-frog-8fQHmByBhfGyJOvGMIJwIA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -2.555778553895124,
+    "y": -1.6928019052915342,
+    "z": -2.938698147120952
+  },
+  "timestamp": "2025-01-25T12:16:25.905047",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "two closed doors",
+        "a storage cabinet",
+        "a table with wheels",
+        "a flat surface (possibly a desk or counter)"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "two doors",
+        "mirrored surface",
+        "floor",
+        "light",
+        "walls",
+        "person's leg"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

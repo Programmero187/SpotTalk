@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "plush-rabbit-.dOQZkaH19enxUEBMoMp2w==",
+  "location": "study room",
+  "coordinates": {
+    "x": -0.30857594255183396,
+    "y": -1.5192453650388171,
+    "z": 0.5594269837527954
+  },
+  "timestamp": "2025-02-07T13:28:54.730899",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "wardrobe with a door",
+        "gray door leading to another room",
+        "black chair",
+        "light source",
+        "camera tripod"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "office chair",
+        "large display screen",
+        "tripod stand",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

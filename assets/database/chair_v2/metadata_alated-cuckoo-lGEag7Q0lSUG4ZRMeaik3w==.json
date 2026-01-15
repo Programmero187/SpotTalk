@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "alated-cuckoo-lGEag7Q0lSUG4ZRMeaik3w==",
+  "location": "office",
+  "coordinates": {
+    "x": -0.1359401735636738,
+    "y": 0.8986775889624965,
+    "z": -2.9866039397933966
+  },
+  "timestamp": "2025-01-25T12:13:39.704333",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "power outlets",
+        "desk",
+        "computer equipment",
+        "chair"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "office chair",
+        "two computer monitors",
+        "audio speakers",
+        "cables",
+        "blank wall",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "tippy-puffin-ioHnvOEB4220PV6+dBMV.w==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 0.8743496427334942,
+    "y": -7.699871491375599,
+    "z": -1.2730588428741818
+  },
+  "timestamp": "2025-02-07T13:34:24.050293",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "dark corridor",
+        "light coming from another room",
+        "a person's leg walking"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a phone mounted on a wall",
+        "two closed doors",
+        "a flat floor surface"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

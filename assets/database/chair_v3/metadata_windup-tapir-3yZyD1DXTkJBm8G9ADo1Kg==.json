@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "windup-tapir-3yZyD1DXTkJBm8G9ADo1Kg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 28.79783678945679,
+    "y": -5.266593068265108,
+    "z": 0.03307709153654833
+  },
+  "timestamp": "2025-02-07T13:38:01.650417",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "empty corridor",
+        "doorway",
+        "wall-mounted object",
+        "long cylindrical object"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doors",
+        "walls",
+        "floor",
+        "ceiling lights",
+        "art on the wall",
+        "QR code sticker"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

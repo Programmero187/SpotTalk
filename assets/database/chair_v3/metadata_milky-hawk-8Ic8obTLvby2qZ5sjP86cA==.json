@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "milky-hawk-8Ic8obTLvby2qZ5sjP86cA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -9.494170626644461,
+    "y": 21.49616988342674,
+    "z": -0.3345509737841751
+  },
+  "timestamp": "2025-02-07T13:26:07.105025",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "open door",
+        "floor",
+        "wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "floor",
+        "office desk",
+        "office chairs",
+        "computer setup",
+        "person sitting at desk"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

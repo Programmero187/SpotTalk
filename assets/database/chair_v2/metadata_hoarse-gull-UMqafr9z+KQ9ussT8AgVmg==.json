@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "hoarse-gull-UMqafr9z+KQ9ussT8AgVmg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -18.564646021780135,
+    "y": -12.114847268726765,
+    "z": -2.612039214854664
+  },
+  "timestamp": "2025-01-25T12:19:49.504474",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "corner of a wall",
+        "flooring",
+        "emergency exit sign"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "long hallway",
+        "fire extinguisher",
+        "paintings or pictures on the wall",
+        "bright overhead lights",
+        "dark door"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "guided-hound-VS6IfFKi9o2qeFeNvM7T+A==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -1.4925765224086518,
+    "y": -35.42555054743294,
+    "z": -0.5901156360598899
+  },
+  "timestamp": "2025-02-07T13:23:13.637965",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "staircase",
+        "glass wall",
+        "floor",
+        "doorway",
+        "wall with a notice board"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "two closed doors",
+        "fire extinguisher",
+        "wall",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

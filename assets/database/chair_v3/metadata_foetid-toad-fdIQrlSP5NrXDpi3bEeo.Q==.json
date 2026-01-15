@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "foetid-toad-fdIQrlSP5NrXDpi3bEeo.Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -27.984853241607787,
+    "y": 3.770500886300073,
+    "z": -0.058077890081517404
+  },
+  "timestamp": "2025-02-07T13:21:39.432740",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "door",
+        "table",
+        "light",
+        "electrical panel"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "door",
+        "posters or signs on the wall",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

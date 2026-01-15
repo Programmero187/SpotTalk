@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "ginger-equid-pht+ofvE9F0kYuMmWii7eA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -6.712412251175039,
+    "y": -35.01493879362446,
+    "z": 2.402862410627244
+  },
+  "timestamp": "2025-02-07T13:22:43.734855",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "walls",
+        "two doors",
+        "fire extinguisher",
+        "a staircase",
+        "glass partition",
+        "notice board"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "dark doors",
+        "flooring",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

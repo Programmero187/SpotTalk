@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "shorn-cocoon-zL0iJUGxSbESg0E1g2NJHQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.440768892389827,
+    "y": 7.23744455237335,
+    "z": -2.779812211043102
+  },
+  "timestamp": "2025-01-25T12:24:41.326050",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "door",
+        "wall",
+        "metal handle",
+        "cabinets"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass doors",
+        "floor",
+        "table or cart",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

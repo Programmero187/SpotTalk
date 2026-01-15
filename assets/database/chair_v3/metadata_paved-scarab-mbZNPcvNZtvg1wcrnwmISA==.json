@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "paved-scarab-mbZNPcvNZtvg1wcrnwmISA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 3.7454468321574925,
+    "y": 24.272929935669207,
+    "z": 0.02939290296983652
+  },
+  "timestamp": "2025-02-07T13:28:11.936555",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a corridor",
+        "a door",
+        "a wall",
+        "a floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wall",
+        "floor",
+        "doorway",
+        "electrical outlet",
+        "QR code"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

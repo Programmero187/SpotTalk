@@ -1,0 +1,35 @@
+{
+  "waypoint_id": "unaged-conch-QBVQrzCK0es9WLCjU8+6vQ==",
+  "location": "office",
+  "coordinates": {
+    "x": 0.4978862150153239,
+    "y": -0.4354924448123561,
+    "z": -2.951709049234845
+  },
+  "timestamp": "2025-01-25T12:26:43.161883",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "person standing",
+        "digital tablet",
+        "dark floor",
+        "two black cases",
+        "doorway",
+        "light-colored wall",
+        "cut out section of wall with pattern"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "black suitcase",
+        "checkerboard wall",
+        "floor",
+        "person's feet in white shoes",
+        "photo backdrop stand"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

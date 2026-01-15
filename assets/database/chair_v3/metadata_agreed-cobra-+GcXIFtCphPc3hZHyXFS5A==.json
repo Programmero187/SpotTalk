@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "agreed-cobra-+GcXIFtCphPc3hZHyXFS5A==",
+  "location": "office",
+  "coordinates": {
+    "x": 3.435079277653212,
+    "y": 23.22418012138451,
+    "z": -0.3922898430279333
+  },
+  "timestamp": "2025-02-07T13:15:18.150874",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "two office chairs",
+        "a desk with computers",
+        "a waste bin",
+        "shelves with items",
+        "a person sitting at the desk"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wooden floor",
+        "office chair",
+        "wall",
+        "corner of a desk",
+        "electrical outlet"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "prima-koodoo-GYrDwDE6feEqRoBbtQiYUw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -28.727313510444176,
+    "y": 9.894815277921772,
+    "z": -2.677986815070842
+  },
+  "timestamp": "2025-01-25T12:22:49.097546",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "stainless steel table",
+        "flooring",
+        "corner wall",
+        "object on table"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "paper with a black and white pattern",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

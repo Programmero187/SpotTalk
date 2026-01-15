@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "auburn-vixen-UqTgTcGqigHPsLIY5iaakA==",
+  "location": "office",
+  "coordinates": {
+    "x": -2.4064524613772655,
+    "y": -0.9364862877531265,
+    "z": -2.9815874075121567
+  },
+  "timestamp": "2025-01-25T12:14:17.346132",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "window",
+        "chairs",
+        "desktop surface"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "power outlet",
+        "cables",
+        "wall",
+        "floor",
+        "corner"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

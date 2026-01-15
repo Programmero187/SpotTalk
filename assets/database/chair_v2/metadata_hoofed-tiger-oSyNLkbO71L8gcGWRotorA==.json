@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "hoofed-tiger-oSyNLkbO71L8gcGWRotorA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -5.372129363645389,
+    "y": 5.957571369518956,
+    "z": -3.0551206302026674
+  },
+  "timestamp": "2025-01-25T12:19:55.526348",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "a corridor",
+        "a partially open door",
+        "a wall",
+        "a person standing",
+        "light switches or electrical outlets"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator",
+        "person leaning against the wall",
+        "floor tiles",
+        "door",
+        "signage"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

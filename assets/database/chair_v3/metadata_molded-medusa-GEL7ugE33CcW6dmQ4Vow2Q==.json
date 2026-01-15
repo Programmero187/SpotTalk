@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "molded-medusa-GEL7ugE33CcW6dmQ4Vow2Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -4.555467979321226,
+    "y": 5.011605673908269,
+    "z": -0.704450486278959
+  },
+  "timestamp": "2025-02-07T13:26:39.872281",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "glass door",
+        "staircase railing",
+        "smooth floor tiles"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "elevator doors",
+        "glass door",
+        "walls",
+        "light fixtures",
+        "black door",
+        "paper on wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

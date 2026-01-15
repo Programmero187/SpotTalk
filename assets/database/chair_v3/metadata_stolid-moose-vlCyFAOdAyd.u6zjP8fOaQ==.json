@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "stolid-moose-vlCyFAOdAyd.u6zjP8fOaQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -33.92486571743373,
+    "y": -1.0574820040028567,
+    "z": -0.4581638573894905
+  },
+  "timestamp": "2025-02-07T13:33:28.856675",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "fire extinguisher",
+        "door",
+        "electrical outlet"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "wall",
+        "corner of the room",
+        "light switch",
+        "baseboard"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

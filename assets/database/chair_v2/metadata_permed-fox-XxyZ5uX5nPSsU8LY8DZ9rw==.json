@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "permed-fox-XxyZ5uX5nPSsU8LY8DZ9rw==",
+  "location": "office",
+  "coordinates": {
+    "x": 0.08971101729485141,
+    "y": -0.47844224842349753,
+    "z": -2.93801900045028
+  },
+  "timestamp": "2025-01-25T12:22:11.272338",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "suitcase",
+        "floor",
+        "wall",
+        "door",
+        "power outlet",
+        "small object on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black suitcase",
+        "white piece of paper",
+        "person standing",
+        "black floor",
+        "checkered wall pattern"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

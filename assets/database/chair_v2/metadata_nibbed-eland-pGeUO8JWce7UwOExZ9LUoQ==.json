@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "nibbed-eland-pGeUO8JWce7UwOExZ9LUoQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 10.006617985872296,
+    "y": -2.8867596097478843,
+    "z": -1.7815995493533296
+  },
+  "timestamp": "2025-01-25T12:21:35.980450",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "door frames",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "person",
+        "staircase",
+        "glass door"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "mealy-collie-sw3vwJ1Z9Xcnk1Bytncttg==",
+  "location": "office",
+  "coordinates": {
+    "x": -2.544774143919356,
+    "y": -0.8959899965341318,
+    "z": -1.7637271573382673
+  },
+  "timestamp": "2025-01-25T12:20:55.529334",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "monitor",
+        "monitor stand",
+        "floor",
+        "pedestal",
+        "cables"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "backpack",
+        "coat on a chair",
+        "floor",
+        "window",
+        "desk"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

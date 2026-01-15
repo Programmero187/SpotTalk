@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "biform-simian-cHL5Cu7LoI48jQop0VOGMw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -18.83547038576428,
+    "y": 15.290786894305933,
+    "z": -0.21036197453053418
+  },
+  "timestamp": "2025-02-07T13:17:35.860160",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "light fixtures",
+        "framed art on the walls",
+        "doorways",
+        "walls",
+        "smooth flooring"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "light coming from another room",
+        "chairs",
+        "table"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

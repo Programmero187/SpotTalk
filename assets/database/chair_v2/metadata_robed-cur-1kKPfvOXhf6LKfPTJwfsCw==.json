@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "robed-cur-1kKPfvOXhf6LKfPTJwfsCw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 1.9160347754602638,
+    "y": -35.925275338509834,
+    "z": -1.9665730789584626
+  },
+  "timestamp": "2025-01-25T12:23:18.073902",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "wall",
+        "door",
+        "sign or poster on the wall",
+        "fire alarm or safety device"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black door",
+        "corner of a room",
+        "white wall",
+        "floor with dark tiles",
+        "electrical outlet"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

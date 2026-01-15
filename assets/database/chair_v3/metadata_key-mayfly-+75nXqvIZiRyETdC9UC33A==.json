@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "key-mayfly-+75nXqvIZiRyETdC9UC33A==",
+  "location": "study room",
+  "coordinates": {
+    "x": -0.9665500447655297,
+    "y": -0.8204109751361871,
+    "z": 0.5809849459425331
+  },
+  "timestamp": "2025-02-07T13:24:55.637695",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "television",
+        "microphone stand",
+        "light stand",
+        "door",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "chairs",
+        "desk",
+        "floor",
+        "whiteboard",
+        "window",
+        "light from outside"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

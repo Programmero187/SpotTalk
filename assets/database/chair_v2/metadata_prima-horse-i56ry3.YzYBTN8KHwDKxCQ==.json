@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "prima-horse-i56ry3.YzYBTN8KHwDKxCQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -10.94475368641335,
+    "y": 4.000400429412321,
+    "z": -2.6456758992749405
+  },
+  "timestamp": "2025-01-25T12:22:42.297686",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "lighting fixtures on the ceiling",
+        "walls",
+        "doors",
+        "flooring"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark door",
+        "floor",
+        "walls",
+        "pictures or frames on the walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

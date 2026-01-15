@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "azonic-skunk-iQv71HiH9SadFvTgbxW40A==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": 10.45520756368146,
+    "y": 18.025604324295603,
+    "z": -0.32489793714914217
+  },
+  "timestamp": "2025-02-07T13:16:50.106211",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "kitchen counter",
+        "kitchen cabinets",
+        "trash bin",
+        "coffee maker",
+        "window with a view of a landscape",
+        "towel hanging on the wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "kitchen cabinet",
+        "handles",
+        "floor",
+        "dish towel",
+        "appliance"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

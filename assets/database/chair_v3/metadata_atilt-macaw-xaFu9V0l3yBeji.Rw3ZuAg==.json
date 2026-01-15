@@ -1,0 +1,34 @@
+{
+  "waypoint_id": "atilt-macaw-xaFu9V0l3yBeji.Rw3ZuAg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -30.231426616456297,
+    "y": 0.8215753616364659,
+    "z": -0.2558955122670858
+  },
+  "timestamp": "2025-02-07T13:16:36.281248",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "table",
+        "floor",
+        "wall",
+        "notice board"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "white walls",
+        "black floor",
+        "open door",
+        "closed door",
+        "staircase visible through open door",
+        "door frame",
+        "power outlet"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

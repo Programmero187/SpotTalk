@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "rutted-basset-AXeGZFiW0q3J0chchVSxDQ==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": 8.831723557485006,
+    "y": 1.087442798091202,
+    "z": -0.8878748763023033
+  },
+  "timestamp": "2025-02-07T13:31:08.878212",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a man standing near a doorway",
+        "a ladder against the wall",
+        "several white boxes",
+        "a covered object on the floor",
+        "markings on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "person",
+        "camera equipment",
+        "tables",
+        "chairs",
+        "white walls",
+        "floor markings"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

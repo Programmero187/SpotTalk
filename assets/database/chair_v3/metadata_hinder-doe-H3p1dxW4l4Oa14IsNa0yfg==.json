@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "hinder-doe-H3p1dxW4l4Oa14IsNa0yfg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -15.288811709519443,
+    "y": 1.3607580684794138,
+    "z": -0.675886036108937
+  },
+  "timestamp": "2025-02-07T13:23:36.683186",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "package",
+        "floor",
+        "lighting",
+        "walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a hallway",
+        "posters or frames on the walls",
+        "a doorway",
+        "a package or box on the floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "alated-lemur-A6YYyPyTNwpEMFo3NWGaBw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 7.037081256853611,
+    "y": 0.5509367001071882,
+    "z": -1.8530941049669052
+  },
+  "timestamp": "2025-01-25T12:13:57.010854",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevators",
+        "floor tiles",
+        "walls",
+        "elevator buttons",
+        "signs"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "girl in a white sweater",
+        "dark pants",
+        "floor tiles",
+        "glass doors",
+        "white walls",
+        "sign on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

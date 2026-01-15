@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "abloom-iguana-8BND5TzSVL14o9zX1I0+2g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 9.31306265679159,
+    "y": 2.3204975100628333,
+    "z": -1.8794475771528487
+  },
+  "timestamp": "2025-01-25T12:13:25.920753",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevators",
+        "walls",
+        "floor",
+        "lighting fixtures",
+        "windows"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "sliding glass door",
+        "light-colored wall",
+        "reflection on the floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

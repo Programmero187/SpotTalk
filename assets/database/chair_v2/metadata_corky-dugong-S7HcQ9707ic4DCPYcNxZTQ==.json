@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "corky-dugong-S7HcQ9707ic4DCPYcNxZTQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -1.958821109653676,
+    "y": 6.07364935132841,
+    "z": -2.715037985982699
+  },
+  "timestamp": "2025-01-25T12:15:25.487525",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black door",
+        "glass wall",
+        "light fixtures",
+        "floor tiles"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevators",
+        "person",
+        "floor tiles",
+        "walls",
+        "doorway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

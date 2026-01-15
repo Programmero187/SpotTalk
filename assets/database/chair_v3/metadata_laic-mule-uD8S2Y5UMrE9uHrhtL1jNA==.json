@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "laic-mule-uD8S2Y5UMrE9uHrhtL1jNA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 2.427371928554631,
+    "y": 23.849383814586506,
+    "z": 0.10994947474284997
+  },
+  "timestamp": "2025-02-07T13:25:07.821356",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "white wall",
+        "doorway",
+        "floor",
+        "posters or frames on wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "two doors",
+        "brightly lit doorway",
+        "some furniture in the background"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "phoney-slug-jfltQbbdNYUnF6ZclrDftg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 7.3388846255643765,
+    "y": 0.8446508315689735,
+    "z": 0.5655652265604562
+  },
+  "timestamp": "2025-02-07T13:28:35.788491",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevator doors",
+        "wall",
+        "floor tiles"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass door",
+        "table",
+        "floor tiles",
+        "wall",
+        "light",
+        "reflection in the floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

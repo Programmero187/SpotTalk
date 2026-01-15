@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "formed-anole-s4Tk.c17yuBg4PBEssCFgg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 23.64907969223327,
+    "y": -26.36128551206842,
+    "z": 0.9767372962926053
+  },
+  "timestamp": "2025-02-07T13:21:53.462069",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long corridor",
+        "dark floor",
+        "white walls",
+        "doorway",
+        "light fixtures",
+        "framed pictures or posters on the walls"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "blank wall",
+        "floor",
+        "poster or sign partially visible"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

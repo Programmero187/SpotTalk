@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "cruddy-dove-7utnCPXsIRMGQ7W1BiV3sA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 29.8642715349827,
+    "y": -7.435550305241515,
+    "z": 0.3458601875360493
+  },
+  "timestamp": "2025-02-07T13:19:23.446665",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long corridor",
+        "walls",
+        "floor",
+        "doors",
+        "light fixtures",
+        "a cylindrical object (possibly a can)"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "walls",
+        "floor",
+        "light fixtures",
+        "posters or notices on the wall",
+        "doorways"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

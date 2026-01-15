@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "wedged-gnu-SiQfvd0aCVskilz8zBcFMA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 5.209261017992657,
+    "y": 6.018855332600747,
+    "z": -1.805124401722611
+  },
+  "timestamp": "2025-01-25T12:27:35.259626",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "elevator doors",
+        "walls",
+        "floor tiles",
+        "warning signs",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "floor tiles",
+        "mirrored wall",
+        "light fixtures",
+        "elevator buttons"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "uphill-baboon-DpTITmztiOOqk5sYQ2EjwA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -22.241439577126283,
+    "y": 6.050422560541756,
+    "z": -0.01865038095469199
+  },
+  "timestamp": "2025-02-07T13:35:35.218092",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long corridor",
+        "doorway",
+        "poster on the wall",
+        "floor with shadow",
+        "shoe"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "white walls",
+        "light fixtures",
+        "door",
+        "fire extinguisher",
+        "posters on walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

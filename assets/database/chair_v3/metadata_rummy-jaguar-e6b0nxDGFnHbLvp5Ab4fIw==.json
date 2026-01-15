@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "rummy-jaguar-e6b0nxDGFnHbLvp5Ab4fIw==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -0.6863226644121123,
+    "y": 7.324887012675782,
+    "z": -0.8363131580459174
+  },
+  "timestamp": "2025-02-07T13:30:46.961539",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark cloth or mat on the floor",
+        "floor with markings or lines",
+        "chalkboard on the wall",
+        "window with natural light",
+        "shadowed area in the corner"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doorway",
+        "ladder",
+        "chalkboard",
+        "floor",
+        "folded material or object",
+        "light source"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

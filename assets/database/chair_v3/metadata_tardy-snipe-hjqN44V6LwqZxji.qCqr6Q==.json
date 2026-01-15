@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "tardy-snipe-hjqN44V6LwqZxji.qCqr6Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -3.616397697329657,
+    "y": 5.735723800068761,
+    "z": -1.1130914745740397
+  },
+  "timestamp": "2025-02-07T13:34:05.474489",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "walls",
+        "doors",
+        "lighting fixtures",
+        "a cart or small object on the floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "wall",
+        "floor",
+        "door handle",
+        "light switch"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

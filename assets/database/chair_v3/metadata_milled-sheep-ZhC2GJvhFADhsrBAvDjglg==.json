@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "milled-sheep-ZhC2GJvhFADhsrBAvDjglg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 19.467468384273673,
+    "y": -29.91708304503842,
+    "z": 1.4454425888441829
+  },
+  "timestamp": "2025-02-07T13:26:13.247143",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "walls",
+        "lighting fixtures",
+        "doors",
+        "posters on the wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "a wall",
+        "a corner",
+        "a door",
+        "a white object with a face design attached to the wall",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

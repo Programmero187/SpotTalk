@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "finer-heron-6DFkhcB1kaP8pA9MR3jENw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -1.318638492254361,
+    "y": 6.851015391210328,
+    "z": -0.9496841587123036
+  },
+  "timestamp": "2025-02-07T13:21:22.123086",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a door",
+        "a person standing near the doorway",
+        "walls",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "cabinet doors",
+        "table",
+        "people's legs"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

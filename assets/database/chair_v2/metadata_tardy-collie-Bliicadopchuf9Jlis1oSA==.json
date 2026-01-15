@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "tardy-collie-Bliicadopchuf9Jlis1oSA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 9.062331349173098,
+    "y": -7.597324019855432,
+    "z": -1.7596184305608438
+  },
+  "timestamp": "2025-01-25T12:25:57.221010",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "reflection in glass doors",
+        "person standing",
+        "light reflections on the floor",
+        "walls with patterns"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "staircase",
+        "railing",
+        "floor tiles",
+        "doorway",
+        "person standing"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

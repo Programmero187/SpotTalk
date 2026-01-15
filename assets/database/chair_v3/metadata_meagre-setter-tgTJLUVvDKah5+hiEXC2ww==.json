@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "meagre-setter-tgTJLUVvDKah5+hiEXC2ww==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -0.7913732637417498,
+    "y": 11.933673068931338,
+    "z": -0.09957170623257053
+  },
+  "timestamp": "2025-02-07T13:25:51.845626",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark surface",
+        "vertical panels or walls",
+        "a white label or tag on a panel",
+        "a faint reflection or light source"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black floor",
+        "white line on the floor",
+        "back wall",
+        "table or surface",
+        "shadow of a tripod"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

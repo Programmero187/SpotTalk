@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "filmy-nasua-zL4X8eCDnetadr12g63OLA==",
+  "location": "office",
+  "coordinates": {
+    "x": 0.1651598628995178,
+    "y": -0.4358008511629127,
+    "z": -2.9414667762607234
+  },
+  "timestamp": "2025-01-25T12:18:35.140113",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "computer monitor",
+        "power cords",
+        "laptop",
+        "whiteboard",
+        "fire extinguisher"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "black case",
+        "white wall",
+        "doorway",
+        "floor",
+        "person's legs in black pants with white shoes"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

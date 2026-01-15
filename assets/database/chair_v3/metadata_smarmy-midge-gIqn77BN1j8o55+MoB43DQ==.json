@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "smarmy-midge-gIqn77BN1j8o55+MoB43DQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 10.145772880635594,
+    "y": -3.6347809998631972,
+    "z": 0.6927642134676163
+  },
+  "timestamp": "2025-02-07T13:32:29.362823",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "glass door",
+        "light fixture",
+        "floor tiles",
+        "walls",
+        "mirrored surface",
+        "open doorway",
+        "text on glass"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "stairs",
+        "railing",
+        "door",
+        "floor tiles"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

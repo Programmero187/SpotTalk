@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "enured-goat-Y.vwnPBsNiBSGQmBG8Tf9g==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -28.102435763622193,
+    "y": -7.173037451894194,
+    "z": -2.7227489655625194
+  },
+  "timestamp": "2025-01-25T12:16:37.478564",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "standing pole",
+        "electrical panel or device on the wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "wall-mounted fixture"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

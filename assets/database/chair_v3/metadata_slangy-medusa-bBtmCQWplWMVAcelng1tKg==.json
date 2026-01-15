@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "slangy-medusa-bBtmCQWplWMVAcelng1tKg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -5.865281087672435,
+    "y": -35.52121920193063,
+    "z": 0.5395487216137494
+  },
+  "timestamp": "2025-02-07T13:32:22.284007",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "dark door",
+        "white wall",
+        "floor",
+        "wall-mounted poster",
+        "electrical outlet"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "fire extinguisher",
+        "dark door",
+        "flooring",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "mesic-emu-8+MIqnLdTFldYSz56u5Usw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -32.302810287901686,
+    "y": -0.33246612014180005,
+    "z": -0.18588976967900983
+  },
+  "timestamp": "2025-02-07T13:25:57.996064",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "table leg"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "two doors",
+        "floor",
+        "walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

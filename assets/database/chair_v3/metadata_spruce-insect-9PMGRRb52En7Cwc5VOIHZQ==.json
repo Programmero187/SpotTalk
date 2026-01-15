@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "spruce-insect-9PMGRRb52En7Cwc5VOIHZQ==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": -0.05570222006629141,
+    "y": -21.14851590869338,
+    "z": -0.08580030642552118
+  },
+  "timestamp": "2025-02-07T13:33:09.113358",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "kitchen floor",
+        "kitchen cabinet",
+        "doorway",
+        "person in doorway"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "stool",
+        "floor",
+        "wall",
+        "door"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

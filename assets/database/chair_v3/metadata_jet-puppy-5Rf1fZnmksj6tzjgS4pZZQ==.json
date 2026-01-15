@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "jet-puppy-5Rf1fZnmksj6tzjgS4pZZQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 16.888144414188083,
+    "y": 8.157841215967382,
+    "z": 0.17049312603790448
+  },
+  "timestamp": "2025-02-07T13:24:33.666932",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "ceiling",
+        "corner of the wall",
+        "dark floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "light",
+        "shadow"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

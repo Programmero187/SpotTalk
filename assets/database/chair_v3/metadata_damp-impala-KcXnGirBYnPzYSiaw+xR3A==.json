@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "damp-impala-KcXnGirBYnPzYSiaw+xR3A==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -6.138882690713971,
+    "y": -5.053689524026937,
+    "z": -1.2295973408473175
+  },
+  "timestamp": "2025-02-07T13:19:41.105911",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a machine with a label on it",
+        "a chair positioned in the background",
+        "windows allowing light into the room",
+        "a flat surface or table in the foreground"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "printer",
+        "black square",
+        "flat surface",
+        "barcode stickers"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

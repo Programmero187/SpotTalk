@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "wimpy-tern-C+jiyjlHtS3MvOh+6xAugg==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": 9.149048354113745,
+    "y": -19.86782706224425,
+    "z": -2.0270349522415017
+  },
+  "timestamp": "2025-01-25T12:27:44.929654",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "doorway",
+        "kitchen cabinets",
+        "kitchen countertop",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "bar stool",
+        "dark doorway",
+        "flooring",
+        "part of a person standing in the doorway"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

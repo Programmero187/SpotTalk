@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "roving-cub-ds.rxKwsVYsV40ag2SefSg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -20.89623491497171,
+    "y": 0.15652442280056247,
+    "z": -2.6657574690444275
+  },
+  "timestamp": "2025-01-25T12:23:46.228015",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "long hallway",
+        "fire extinguisher",
+        "light fixtures on the ceiling",
+        "plain wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "corridor",
+        "light fixtures",
+        "walls",
+        "floor",
+        "pictures on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

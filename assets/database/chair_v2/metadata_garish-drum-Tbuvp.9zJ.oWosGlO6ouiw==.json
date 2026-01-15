@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "garish-drum-Tbuvp.9zJ.oWosGlO6ouiw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 31.39551951191751,
+    "y": -12.918102369461442,
+    "z": -1.670880331276511
+  },
+  "timestamp": "2025-01-25T12:19:16.232254",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door on the left",
+        "light fixtures in the ceiling",
+        "floor with a consistent surface",
+        "walls",
+        "possibly other doors in the distance"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "hallway",
+        "floor",
+        "wall",
+        "light fixtures",
+        "pictures or frames on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

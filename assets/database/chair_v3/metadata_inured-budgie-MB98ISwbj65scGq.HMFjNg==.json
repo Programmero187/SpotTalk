@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "inured-budgie-MB98ISwbj65scGq.HMFjNg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 3.9212107501764146,
+    "y": 5.661127333097616,
+    "z": -0.4953665111163007
+  },
+  "timestamp": "2025-02-07T13:24:20.811921",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "table",
+        "floor",
+        "walls",
+        "door",
+        "lights"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "table",
+        "doors",
+        "storage cabinets",
+        "lights"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

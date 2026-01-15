@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "fluffy-lynx-AW2XDg+K+9KYqmvkrNwzSg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -26.490647062203625,
+    "y": 12.602864690932352,
+    "z": -2.7347785595148393
+  },
+  "timestamp": "2025-01-25T12:18:47.323545",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "metal door",
+        "metal fixture",
+        "paper holder or stand"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "wall",
+        "plug socket",
+        "frame or sign on wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

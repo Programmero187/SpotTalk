@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "color-baboon-.mxwg9eQP4SQRV8312r9jg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -30.9960344089824,
+    "y": 1.8708258615950024,
+    "z": -0.6306336450816472
+  },
+  "timestamp": "2025-02-07T13:18:49.197701",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a person walking",
+        "a small table with a flat top",
+        "a smooth floor",
+        "walls of a room",
+        "a door"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "doors",
+        "floor",
+        "walls",
+        "plant",
+        "person"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

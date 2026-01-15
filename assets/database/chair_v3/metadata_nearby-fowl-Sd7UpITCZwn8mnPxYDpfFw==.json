@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "nearby-fowl-Sd7UpITCZwn8mnPxYDpfFw==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -9.443850612404999,
+    "y": 1.0133930378069111,
+    "z": -0.6585554615878617
+  },
+  "timestamp": "2025-02-07T13:26:54.058491",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "floor tiles",
+        "wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "toy car",
+        "white wall",
+        "floor tiles",
+        "plug or outlet on the wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

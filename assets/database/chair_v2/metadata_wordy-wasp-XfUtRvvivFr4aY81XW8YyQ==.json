@@ -1,0 +1,34 @@
+{
+  "waypoint_id": "wordy-wasp-XfUtRvvivFr4aY81XW8YyQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -1.72900494714991,
+    "y": -3.2599960745042904,
+    "z": -2.8294566238325176
+  },
+  "timestamp": "2025-01-25T12:27:57.012591",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "doorway",
+        "wall",
+        "ceiling",
+        "floor",
+        "cabinets",
+        "hook",
+        "light switch"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "table",
+        "multiple doors",
+        "fire extinguisher",
+        "floor",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

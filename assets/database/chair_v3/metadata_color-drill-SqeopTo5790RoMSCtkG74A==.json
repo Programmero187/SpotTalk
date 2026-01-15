@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "color-drill-SqeopTo5790RoMSCtkG74A==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": 6.749473631572938,
+    "y": 9.055864112428694,
+    "z": -1.0481389239509018
+  },
+  "timestamp": "2025-02-07T13:18:55.593027",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "a partially visible wall",
+        "a shadow",
+        "a door",
+        "a backdrop stand"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "blackboard",
+        "floor",
+        "people",
+        "equipment",
+        "pile of fabric"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

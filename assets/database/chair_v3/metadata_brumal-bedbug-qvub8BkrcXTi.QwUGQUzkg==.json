@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "brumal-bedbug-qvub8BkrcXTi.QwUGQUzkg==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": 2.1746820143294054,
+    "y": 6.92042280364588,
+    "z": -0.47847459048883556
+  },
+  "timestamp": "2025-02-07T13:18:23.442089",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a dark tarpaulin or blanket on the floor",
+        "two lines on the floor",
+        "a chalkboard with numbers",
+        "a person in the background"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "ladder",
+        "fire extinguisher",
+        "stacked furniture",
+        "doorway",
+        "flooring"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

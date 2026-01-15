@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "jet-yak-VneGPgYPs2N2WqQ63eSjmQ==",
+  "location": "office",
+  "coordinates": {
+    "x": -24.77807357502049,
+    "y": -2.9121059561039653,
+    "z": -0.4841267331825905
+  },
+  "timestamp": "2025-02-07T13:24:42.725617",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "office chairs",
+        "table",
+        "carpeted floor",
+        "wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "chairs",
+        "table",
+        "plant",
+        "whiteboard",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "amuck-lynx-VOKgzUgkYYqzqpJC9GYmLA==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": -20.724707609385337,
+    "y": -6.964634576831064,
+    "z": -2.198050398445272
+  },
+  "timestamp": "2025-01-25T12:14:06.433110",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "bar stools",
+        "table",
+        "floor",
+        "wall panels"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor outlet",
+        "dark floor",
+        "white wall",
+        "corner of a cabinet",
+        "chair leg"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "rust-tiger-BcAwYPQHPzyxkGfPMdPRxg==",
+  "location": "study room",
+  "coordinates": {
+    "x": -2.377451335187046,
+    "y": 1.2177437139421718,
+    "z": -1.3739438945622826
+  },
+  "timestamp": "2025-02-07T13:31:02.629275",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "black floor",
+        "white wall",
+        "QR code-like pattern on the wall",
+        "edge of a table or desk",
+        "light source illuminating the wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "power outlets",
+        "wires",
+        "black square on the wall",
+        "table surface",
+        "floor"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

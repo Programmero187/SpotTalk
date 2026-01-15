@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "mired-mako-m1EW1O1lrizizHcL5m.Rzg==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -0.9509903317930757,
+    "y": -6.48794025659784,
+    "z": -1.1409219891944946
+  },
+  "timestamp": "2025-02-07T13:26:27.743873",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "chair",
+        "desk",
+        "computer monitor",
+        "vertical surface",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "tables",
+        "chairs",
+        "floor",
+        "light coming from windows",
+        "equipment or cart"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

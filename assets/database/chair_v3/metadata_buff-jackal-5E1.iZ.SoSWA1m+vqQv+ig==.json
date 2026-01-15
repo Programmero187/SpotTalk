@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "buff-jackal-5E1.iZ.SoSWA1m+vqQv+ig==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -1.8787746393838867,
+    "y": 8.950221044745053,
+    "z": 0.03495025628142227
+  },
+  "timestamp": "2025-02-07T13:18:30.095486",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "toy car",
+        "straw",
+        "white wall",
+        "black door",
+        "floor tiles",
+        "doorway"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator",
+        "door",
+        "floor",
+        "small toy cart"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

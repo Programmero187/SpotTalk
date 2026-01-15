@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "votive-seal-vhhScqLGIK4R+jAEiM.Jdg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 5.334738384326678,
+    "y": -4.021873931451102,
+    "z": -1.8528507670625125
+  },
+  "timestamp": "2025-01-25T12:27:09.656456",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "mirror",
+        "floor tiles",
+        "person in hoodie",
+        "person in pants",
+        "sneakers"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "glass doors",
+        "floor tiles",
+        "reflections on the floor",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

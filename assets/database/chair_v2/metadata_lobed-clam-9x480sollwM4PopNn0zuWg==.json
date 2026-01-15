@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "lobed-clam-9x480sollwM4PopNn0zuWg==",
+  "location": "office",
+  "coordinates": {
+    "x": 0.28716062310588647,
+    "y": 0.6527307440726403,
+    "z": -1.7694300324847623
+  },
+  "timestamp": "2025-01-25T12:20:37.407051",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "chairs",
+        "whiteboard",
+        "projector screen",
+        "curtains",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "floor",
+        "table",
+        "chairs",
+        "window",
+        "cabinets"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

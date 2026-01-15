@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "wedged-dove-Vu1eg8MvEjUyNIBqtR0IWA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 8.340794409301415,
+    "y": -6.503453077950327,
+    "z": -1.8273600592130588
+  },
+  "timestamp": "2025-01-25T12:27:23.104833",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor tiles",
+        "door",
+        "part of a person",
+        "mirror",
+        "checkered flag pattern"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "stairs",
+        "person standing",
+        "railings",
+        "floor tiles",
+        "window",
+        "shadow of the person"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

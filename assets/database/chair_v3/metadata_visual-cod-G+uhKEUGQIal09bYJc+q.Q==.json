@@ -1,0 +1,29 @@
+{
+  "waypoint_id": "visual-cod-G+uhKEUGQIal09bYJc+q.Q==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -2.7730793914120473,
+    "y": 8.694893412560372,
+    "z": -0.9269050748490808
+  },
+  "timestamp": "2025-02-07T13:35:55.902879",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor tiles",
+        "light reflections"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "walls",
+        "floor tiles"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

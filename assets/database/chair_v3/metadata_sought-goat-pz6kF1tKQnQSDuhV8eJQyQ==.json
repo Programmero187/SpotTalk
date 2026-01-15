@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "sought-goat-pz6kF1tKQnQSDuhV8eJQyQ==",
+  "location": "robot lab",
+  "coordinates": {
+    "x": -9.870566232891461,
+    "y": 5.586473928193635,
+    "z": -0.6872922751982681
+  },
+  "timestamp": "2025-02-07T13:32:57.215035",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "tripod stand",
+        "corner of a table",
+        "floor surface",
+        "light reflections",
+        "wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "dark vertical panels",
+        "dashed line on the floor",
+        "two small white dots",
+        "a flat surface"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

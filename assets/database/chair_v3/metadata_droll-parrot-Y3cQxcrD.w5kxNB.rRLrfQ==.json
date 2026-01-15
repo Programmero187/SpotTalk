@@ -1,0 +1,30 @@
+{
+  "waypoint_id": "droll-parrot-Y3cQxcrD.w5kxNB.rRLrfQ==",
+  "location": "office",
+  "coordinates": {
+    "x": 13.449760030742175,
+    "y": 18.701695249683745,
+    "z": -0.41119076495017165
+  },
+  "timestamp": "2025-02-07T13:20:10.242353",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "office chair",
+        "desk",
+        "floor",
+        "window"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "wall",
+        "power outlet",
+        "floor",
+        "angular edge of furniture"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

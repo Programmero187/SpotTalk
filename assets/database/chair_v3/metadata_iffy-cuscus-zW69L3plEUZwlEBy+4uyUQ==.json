@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "iffy-cuscus-zW69L3plEUZwlEBy+4uyUQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 0.3229880474921787,
+    "y": 9.148757383045488,
+    "z": -0.13174427134738334
+  },
+  "timestamp": "2025-02-07T13:24:07.191167",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "toy car",
+        "white wall",
+        "floor",
+        "door",
+        "corner"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator",
+        "wall",
+        "floor tiles",
+        "door",
+        "elevator button panel",
+        "signs"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

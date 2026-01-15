@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "soused-porgy-km1rJDJmdNWIybJ+s2ZNtA==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -0.46570549052082366,
+    "y": 7.708732282992498,
+    "z": -3.166939909881227
+  },
+  "timestamp": "2025-01-25T12:25:20.234851",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "walls",
+        "floor tiles",
+        "a person",
+        "a glass door",
+        "lighting fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "wall",
+        "floor tiles",
+        "elevator call buttons",
+        "sign on wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

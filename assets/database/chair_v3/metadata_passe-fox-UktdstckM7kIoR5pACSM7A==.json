@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "passe-fox-UktdstckM7kIoR5pACSM7A==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -30.865064882955995,
+    "y": 4.128093566151041,
+    "z": -0.35039878724507195
+  },
+  "timestamp": "2025-02-07T13:28:04.934907",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "table",
+        "wall",
+        "corner"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "floor",
+        "plant in a pot",
+        "light",
+        "wall"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "grainy-mudcat-Ey.82h6Z0FvjuetNQEzmyQ==",
+  "location": "office",
+  "coordinates": {
+    "x": 1.231067362277198,
+    "y": 0.5452663646999589,
+    "z": -1.7951743966938867
+  },
+  "timestamp": "2025-01-25T12:19:28.891270",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "empty room",
+        "projection screen",
+        "stack of boxes",
+        "table with chairs",
+        "floor"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "chairs",
+        "desks",
+        "window",
+        "floor",
+        "power cable",
+        "black box"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

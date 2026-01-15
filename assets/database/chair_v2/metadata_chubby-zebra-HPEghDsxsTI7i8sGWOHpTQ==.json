@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "chubby-zebra-HPEghDsxsTI7i8sGWOHpTQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 28.23697974272404,
+    "y": -21.7723641604483,
+    "z": -2.2057509474692143
+  },
+  "timestamp": "2025-01-25T12:15:07.055547",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "door",
+        "hallway",
+        "art frames",
+        "floor",
+        "wall",
+        "corner of wall"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "door",
+        "wall",
+        "floor",
+        "information board",
+        "signage"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "garbed-kodiak-om5GPrnZoCuj60JjyLuERQ==",
+  "location": "office",
+  "coordinates": {
+    "x": -1.4331800398443955,
+    "y": 0.1417542046620186,
+    "z": -2.9877089330028936
+  },
+  "timestamp": "2025-01-25T12:19:10.571368",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "floor",
+        "power outlet",
+        "cables",
+        "window",
+        "chair"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "computer",
+        "desk",
+        "chair",
+        "floor",
+        "power outlets"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

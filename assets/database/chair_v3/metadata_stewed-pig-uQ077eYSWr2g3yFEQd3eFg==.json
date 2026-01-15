@@ -1,0 +1,32 @@
+{
+  "waypoint_id": "stewed-pig-uQ077eYSWr2g3yFEQd3eFg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": 2.490545145923812,
+    "y": 6.04044358946231,
+    "z": -0.621401814745911
+  },
+  "timestamp": "2025-02-07T13:33:21.994958",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a white door",
+        "a square QR code",
+        "a floor with dark tiles",
+        "a wall with a smooth texture",
+        "a door handle"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator doors",
+        "elevator buttons",
+        "wall",
+        "floor",
+        "QR code"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

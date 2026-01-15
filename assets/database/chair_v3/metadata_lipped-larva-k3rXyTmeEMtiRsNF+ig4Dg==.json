@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "lipped-larva-k3rXyTmeEMtiRsNF+ig4Dg==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -7.550986300002206,
+    "y": 0.9823457064270623,
+    "z": -1.2551104240085735
+  },
+  "timestamp": "2025-02-07T13:25:20.376289",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a wall",
+        "a door",
+        "floor",
+        "a QR code on the wall",
+        "corner of the room"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "metal cabinet",
+        "door handle",
+        "corner of a wall",
+        "sticker or poster with a QR code"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "waypoint_id": "perky-cattle-JULUJXa.0TmB3S1edOTnRQ==",
+  "location": "hallway",
+  "coordinates": {
+    "x": -6.485183477804039,
+    "y": 3.8437799438719567,
+    "z": -0.6778631459954436
+  },
+  "timestamp": "2025-02-07T13:28:17.663484",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "a toy car",
+        "floor tiles",
+        "two doors (one closed, one slightly open)",
+        "walls",
+        "light fixtures"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "elevator",
+        "open door",
+        "walls",
+        "floor tiles",
+        "light fixtures",
+        "indicators or signage on the walls"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}

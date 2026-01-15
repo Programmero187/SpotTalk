@@ -1,0 +1,31 @@
+{
+  "waypoint_id": "chichi-guinea-bZv8PRmul+fX+A03xqvwnA==",
+  "location": "kitchen",
+  "coordinates": {
+    "x": -4.199489199512859,
+    "y": 20.390972131733736,
+    "z": -2.446774730009596
+  },
+  "timestamp": "2025-01-25T12:15:00.912507",
+  "views": {
+    "left_view": {
+      "visible_objects": [
+        "kitchen cabinets",
+        "kitchen counter",
+        "floor",
+        "electrical outlet"
+      ],
+      "camera_source": "frontleft_fisheye_image"
+    },
+    "right_view": {
+      "visible_objects": [
+        "metal trash can",
+        "kitchen cabinets",
+        "kitchen countertop",
+        "floor",
+        "towel hanging"
+      ],
+      "camera_source": "frontright_fisheye_image"
+    }
+  }
+}
