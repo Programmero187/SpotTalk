@@ -16,6 +16,9 @@ lib64/
 parts/
 sdist/
 var/
+venv/
+spotty/venv/
+
 *.egg-info/
 .installed.cfg
 *.egg
