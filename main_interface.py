@@ -485,8 +485,8 @@ def main():
         wake_word_config=WakeWordConfig(access_key=os.getenv("PICOVOICE_ACCESS_KEY"), keyword_path=KEYWORD_PATH),
         vision_config=VisionConfig(),
         system_prompt=system_prompt_assistant,
-        map_path=os.path.join(MAP_PATH, "chair_v3"),
-        vector_db_path=os.path.join(RAG_DB_PATH, "chair_v3"),
+        map_path=os.path.join(MAP_PATH, "Map1_laser"),
+        vector_db_path=os.path.join(RAG_DB_PATH, "Map1_laser"),
     )
 
     interface = UnifiedSpotInterface(

@@ -1,11 +1,10 @@
 import json
 import socket
-import uuid
 from typing import Callable, Optional
 
-HOST = "0.0.0.0"  # Change this to your desired IP
-PORT = 8766       # Change this to your desired port
-OUTPUT_FILE = "socket_temp/robot_response.json"
+HOST = "127.0.0.1"  # Change this to your desired IP
+PORT = 8765       # Change this to your desired port
+OUTPUT_FILE = "socket_temp/robot_receive.json"
 
 
 class SocketReceiver:
@@ -41,12 +40,17 @@ class SocketReceiver:
 				data = conn.recv(1024).decode("utf-8").strip()
 				
 				if data:
-					payload = {
-						"id": str(uuid.uuid4()),
-						"notaus": False,
-						"text": data,
-						"image_b64": ""
-					}
+					# If incoming data is JSON, write it as-is. Otherwise, wrap it.
+					try:
+						parsed = json.loads(data)
+						payload = parsed
+					except json.JSONDecodeError:
+						payload = {
+							"id": "1",
+							"notaus": False,
+							"text": data,
+							"image_b64": ""
+						}
 					
 					with open(self.output_file, "w") as f:
 						json.dump(payload, f, indent=4)
@@ -54,9 +58,9 @@ class SocketReceiver:
 					print(f"Received: {data}")
 					conn.sendall(b"OK")
 					
-					# Trigger callback with the text
+					# Trigger callback with the text (prefer 'text' if present)
 					if self.callback:
-						self.callback(data)
+						self.callback(payload["text"] if isinstance(payload, dict) and "text" in payload else data)
 				
 				conn.close()
 			except Exception as e:
