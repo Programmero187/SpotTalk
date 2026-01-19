@@ -26,9 +26,7 @@ from spotty.vision.image_processor import ImageProcessor
 from spotty.vision.vqa_handler import VQAHandler
 
 import json
-
-
-socket_json = "socket"
+from socket_recieve import SocketReceiver
 
 
 class UnifiedSpotInterface:
@@ -38,6 +36,9 @@ class UnifiedSpotInterface:
         self,
         robot,
         config: RobotConfig,
+        use_socket: bool = False,
+        socket_host: str = "0.0.0.0",
+        socket_port: int = 8766,
     ):
         logging.basicConfig(
             level=logging.DEBUG if config.debug else logging.INFO,
@@ -45,6 +46,7 @@ class UnifiedSpotInterface:
         )
         self.logger = logging.getLogger(__name__)
         self.config = config
+        self.use_socket = use_socket
 
         self.state = SpotState()
 
@@ -55,6 +57,12 @@ class UnifiedSpotInterface:
         self._init_graph_nav(robot, config.map_path)
         self._init_rag_system(config.map_path, config.vector_db_path)
         self._init_audio_components(config.system_prompt, config.wake_word_config)
+        
+        # Initialize socket receiver if enabled
+        if use_socket:
+            self.socket_receiver = SocketReceiver(socket_host, socket_port)
+            self.socket_receiver.set_callback(self._handle_socket_input)
+            self.logger.info(f"Socket receiver configured for {socket_host}:{socket_port}")
 
         self.image_processor = ImageProcessor(
               self.image_client,
@@ -149,6 +157,21 @@ class UnifiedSpotInterface:
         """Command the robot to stand using GraphNav interface."""
         return self.graph_nav.stand()
 
+    def _handle_socket_input(self, text: str):
+        """Handle text input from socket - bypasses voice recording"""
+        try:
+            print(f"\nSocket input: {text}")
+            
+            response = self.chat_client.chat_completion(text)
+            print(f"\nSpot's decision: {response}")
+
+            command_data = self.command_parser.extract_command(response)
+            self._execute_command(command_data)
+
+        except Exception as e:
+            self.logger.error(f"Error in socket interaction: {e}")
+            self._handle_speech("I encountered an error processing your request.")
+    
     def _handle_interaction(self):
         """Handle a single interaction turn"""
         try:
@@ -377,6 +400,11 @@ class UnifiedSpotInterface:
             self.logger.error(f"Error in _handle_question: {str(e)}")
             self._handle_speech("I encountered an error processing your response.")
 
+    def _socket_processing_loop(self):
+        """Main loop for socket-based input processing"""
+        self.logger.info("Starting socket processing loop")
+        self.socket_receiver.start()
+    
     def _command_processing_loop(self):
         """Main loop for processing wake word detection"""
         self.logger.info("Starting command processing loop")
@@ -397,15 +425,29 @@ class UnifiedSpotInterface:
     def start(self):
         """Start the unified interface"""
         self.state.is_running = True
-        self.command_thread = threading.Thread(target=self._command_processing_loop)
-        self.command_thread.daemon = True
-        self.command_thread.start()
-        self.logger.info("Unified interface started")
+        
+        if self.use_socket:
+            # Use socket receiver instead of wake word
+            self.command_thread = threading.Thread(target=self._socket_processing_loop)
+            self.command_thread.daemon = True
+            self.command_thread.start()
+            self.logger.info("Unified interface started with socket input")
+        else:
+            # Use traditional wake word detection
+            self.command_thread = threading.Thread(target=self._command_processing_loop)
+            self.command_thread.daemon = True
+            self.command_thread.start()
+            self.logger.info("Unified interface started with wake word")
 
     def stop(self):
         """Stop the unified interface"""
         self.state.is_running = False
-        self.wake_detector.stop()
+        
+        if self.use_socket and hasattr(self, "socket_receiver"):
+            self.socket_receiver.stop()
+        else:
+            self.wake_detector.stop()
+        
         self.audio_manager.cleanup()
 
         if hasattr(self, "image_thread") and self.image_thread:
@@ -420,11 +462,19 @@ class UnifiedSpotInterface:
 
 def main():
     """Main entry point"""
+    import argparse
     import bosdyn.client
 
     from spotty.audio import system_prompt_assistant
     from spotty.config.robot_config import RobotConfig, VisionConfig, WakeWordConfig
     from spotty.utils.robot_utils import HOSTNAME, auto_authenticate
+
+    # Parse command line arguments
+    parser = argparse.ArgumentParser(description="Spot Talk Interface")
+    parser.add_argument("--socket", action="store_true", help="Use socket input instead of Picovoice wake word")
+    parser.add_argument("--socket-host", default="0.0.0.0", help="Socket host IP (default: 0.0.0.0)")
+    parser.add_argument("--socket-port", type=int, default=8766, help="Socket port (default: 8766)")
+    args = parser.parse_args()
 
     # Initialize robot
     sdk = bosdyn.client.create_standard_sdk("UnifiedSpotInterface")
@@ -441,7 +491,10 @@ def main():
 
     interface = UnifiedSpotInterface(
         robot=robot,
-        config=config
+        config=config,
+        use_socket=args.socket,
+        socket_host=args.socket_host,
+        socket_port=args.socket_port,
     )
 
     try:
