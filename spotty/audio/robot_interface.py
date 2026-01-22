@@ -182,11 +182,12 @@ class ChatClient:
         except FileNotFoundError:
             print(f"No history file found at {filename}")
 
-    def chat_completion(self, user_input: str) -> str:
+    def chat_completion(self, user_input: str, messages: Optional[List[Dict[str, Any]]] = None) -> str:
         """Get chat completion from OpenAI API. Responses are already added to chat history
         No need to add them again outside this function.
         """
-        messages = [{"role": "system", "content": self.system_prompt}]
+        if not messages:
+            messages = [{"role": "system", "content": self.system_prompt}]
         messages.extend(self.get_recent_context())
         messages.append({"role": "user", "content": user_input})
 

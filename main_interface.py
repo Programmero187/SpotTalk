@@ -237,12 +237,14 @@ class UnifiedSpotInterface:
         is_successful = False
         print(f"Destination: {destination}")
 
-        if waypoint_id in self.rag_system.get_vector_store_info().get("total_documents", []):
-            # This is likely a waypoint ID
+        # Try to navigate directly first (assume it's a waypoint ID)
+        # If it fails, fall back to location-based navigation
+        try:
             is_successful = self.graph_nav._navigate_to(destination)
-            self._handle_speech("I am navigating to the specified location.")
-        else:
-            # This is likely a location name, try to find matching waypoint
+            if is_successful:
+                self._handle_speech("I am navigating to the specified location.")
+        except Exception:
+            # If direct navigation fails, try location-based search
             is_successful, matching_waypoint_id = self.graph_nav._navigate_to_by_location(destination)
             waypoint_id = matching_waypoint_id
             self._handle_speech("I am navigating to the specified location.")
@@ -353,12 +355,18 @@ class UnifiedSpotInterface:
                                 Respond ONLY with the exact name of the chosen location from the available list, or respond with "unknown" if the choice is unclear."""
 
                 location_choice = self.chat_client.chat_completion(user_response, messages=[{"role": "system", "content": system_prompt}])
+                print(f"1. {location_choice}")
+                print(locations.keys())
 
                 location_choice = location_choice.strip().lower()
+
+                print(f"2. {location_choice}")
                 for loc in locations.keys():
                     if loc.lower() in location_choice:
                         location_choice = loc
                         break
+
+                print(f"3. {location_choice}")
 
                 if location_choice in locations:
                     result = locations[location_choice]
@@ -485,8 +493,8 @@ def main():
         wake_word_config=WakeWordConfig(access_key=os.getenv("PICOVOICE_ACCESS_KEY"), keyword_path=KEYWORD_PATH),
         vision_config=VisionConfig(),
         system_prompt=system_prompt_assistant,
-        map_path=os.path.join(MAP_PATH, "Map1_laser"),
-        vector_db_path=os.path.join(RAG_DB_PATH, "Map1_laser"),
+        map_path=os.path.join(MAP_PATH, "Map1"),
+        vector_db_path=os.path.join(RAG_DB_PATH, "Map1"),
     )
 
     interface = UnifiedSpotInterface(
