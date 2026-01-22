@@ -27,6 +27,7 @@ from spotty.vision.vqa_handler import VQAHandler
 
 import json
 from socket_recieve import SocketReceiver
+from socket_send import SocketSender
 
 
 class UnifiedSpotInterface:
@@ -39,6 +40,8 @@ class UnifiedSpotInterface:
         use_socket: bool = False,
         socket_host: str = "0.0.0.0",
         socket_port: int = 8766,
+        socket_send_host: str = "127.0.0.1",
+        socket_send_port: int = 8764,
     ):
         logging.basicConfig(
             level=logging.DEBUG if config.debug else logging.INFO,
@@ -63,6 +66,9 @@ class UnifiedSpotInterface:
             self.socket_receiver = SocketReceiver(socket_host, socket_port)
             self.socket_receiver.set_callback(self._handle_socket_input)
             self.logger.info(f"Socket receiver configured for {socket_host}:{socket_port}")
+            
+            self.socket_sender = SocketSender(socket_send_host, socket_send_port)
+            self.logger.info(f"Socket sender configured to connect to {socket_send_host}:{socket_send_port}")
 
         self.image_processor = ImageProcessor(
               self.image_client,
@@ -411,6 +417,12 @@ class UnifiedSpotInterface:
     def _socket_processing_loop(self):
         """Main loop for socket-based input processing"""
         self.logger.info("Starting socket processing loop")
+        
+        # Start socket sender in a separate thread
+        sender_thread = threading.Thread(target=self.socket_sender.start, daemon=True)
+        sender_thread.start()
+        
+        # Start socket receiver
         self.socket_receiver.start()
     
     def _command_processing_loop(self):
@@ -453,6 +465,8 @@ class UnifiedSpotInterface:
         
         if self.use_socket and hasattr(self, "socket_receiver"):
             self.socket_receiver.stop()
+            if hasattr(self, "socket_sender"):
+                self.socket_sender.stop()
         else:
             self.wake_detector.stop()
         
@@ -480,8 +494,10 @@ def main():
     # Parse command line arguments
     parser = argparse.ArgumentParser(description="Spot Talk Interface")
     parser.add_argument("--socket", action="store_true", help="Use socket input instead of Picovoice wake word")
-    parser.add_argument("--socket-host", default="0.0.0.0", help="Socket host IP (default: 0.0.0.0)")
-    parser.add_argument("--socket-port", type=int, default=8766, help="Socket port (default: 8766)")
+    parser.add_argument("--socket-host", default="0.0.0.0", help="Socket host IP for receiver (default: 0.0.0.0)")
+    parser.add_argument("--socket-port", type=int, default=8766, help="Socket port for receiver (default: 8766)")
+    parser.add_argument("--socket-send-host", default="127.0.0.1", help="Socket host IP for sender connection (default: 127.0.0.1)")
+    parser.add_argument("--socket-send-port", type=int, default=8764, help="Socket port for sender connection (default: 8764)")
     args = parser.parse_args()
 
     # Initialize robot
@@ -503,6 +519,8 @@ def main():
         use_socket=args.socket,
         socket_host=args.socket_host,
         socket_port=args.socket_port,
+        socket_send_host=args.socket_send_host,
+        socket_send_port=args.socket_send_port,
     )
 
     try:

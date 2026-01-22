@@ -18,5 +18,5 @@ $env:OPENAI_API_KEY="your_openai_api_key"
 
 3. start the main interface:
 ```
-python main_interface.py --socket --socket-host 127.0.0.1 --socket-port 8765   
+python main_interface.py --socket --socket-host 0.0.0.0 --socket-port 8765 --socket-send-host 127.0.0.1 --socket-send-port 8766 
 ```
