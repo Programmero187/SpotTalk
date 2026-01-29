@@ -42,6 +42,15 @@ class CommandParser:
                 return {"command": "sit", "parameters": {}}
             elif "stand(" in response:
                 return {"command": "stand", "parameters": {}}
+            elif "take_picture(" in response:
+                parameters = response.split("take_picture(")[1].split(")")[0].split(",")
+                return {
+                    "command": "take_pic", 
+                    "parameters": {
+                        "obj":parameters[0].strip("\"'"),
+                        "camera": parameters[1].strip("\"'") if len(parameters) > 1 else None,
+                    }
+                }
 
             # Default case for unrecognized commands
             return {"command": "say", "parameters": {"phrase": "I'm not sure how to handle that request."}}

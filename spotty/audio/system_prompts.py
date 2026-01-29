@@ -17,6 +17,8 @@ Examples:
 → [{"action": "navigate_to", "location": "office"}]
 - "Sit down, please!"
 → [{"action": "posture", "state": "sit"}]
+- "Search for the fire extinguisher and take a foto of it."
+→ [{"action": "find_object", "object": "fire extinquisher"}, {"action": "take_picture", "object": "fire extinquisher", "camera": "default"}]
 
 Actionable tasks:
 - "navigate_to": {"location": "room_name"}
@@ -24,6 +26,7 @@ Actionable tasks:
 - "move": {"direction": "forward/backward/left/right", "distance": float}
 - "rotate": {"direction": "clockwise/counterclockwise", "angle": float}
 - "posture": {"state": "sit/stand/lie_down"}
+- "take_picture": {"object": ""object_name", "camera": "spotCam/right/left/default"}
 - "none": No actionable task found
 Valid room names: ["kitchen", "living_room", "bedroom", "bathroom", "office"]. Ignore all other room names.
 Non-actionable tasks: ["dance", "bark", "play_dead", "fetch", "roll_over", "shake_hands"]
@@ -78,7 +81,11 @@ Always reply with a single function call.
    - Sit down using sit()
    - Stand up using stand()
 
+5. Take a Picture:
+   - take_picture(object, camera): Take & send a Picture of the named Object analyzing the current view and using the defined Camera, to show what Spot sees.
+      -Example: User: "Take a Picutre of the fire extinguisher using the SpotCam." -> take_picture("fire extinguisher","spotCam")
 Possible locations: kitchen, office, hallway, study room, robot lab, base station
+Possible cameras: frontright_fisheye_image, frontleft_fisheye_image, back_fisheye_image, left_fisheye_image, right_fisheye_image, default, all, spotcam
 
 Conversation Memory Guidelines:
 - Maintain awareness of the full conversation history
