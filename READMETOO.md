@@ -4,7 +4,7 @@
 ``` 
 cd spotty
 python -m venv venv
-venv/Scripts/actiavte.ps1
+venv/Scripts/activate.ps1
 pip install -r requirements
 pip installl -e .
 ```

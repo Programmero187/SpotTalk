@@ -172,11 +172,14 @@ class UnifiedSpotInterface:
         """Handle text input from socket - bypasses voice recording"""
         try:
             print(f"\nSocket input: {text}")
+            print(f"Waiting for followup: {self.waiting_for_followup}")
             
             # Check if we're waiting for a follow-up response
             if self.waiting_for_followup:
+                print(f"Setting followup response: {text}")
                 self.followup_response = text
                 self.followup_event.set()
+                print(f"Event set. Event is_set: {self.followup_event.is_set()}")
                 return
             
             response = self.chat_client.chat_completion(text)
@@ -258,13 +261,14 @@ class UnifiedSpotInterface:
         # If it fails, fall back to location-based navigation
         try:
             is_successful = self.graph_nav._navigate_to(destination)
-            if is_successful:
+            if is_successful and not phrase:
                 self._handle_speech("I am navigating to the specified location.")
         except Exception:
             # If direct navigation fails, try location-based search
             is_successful, matching_waypoint_id = self.graph_nav._navigate_to_by_location(destination)
             waypoint_id = matching_waypoint_id
-            self._handle_speech("I am navigating to the specified location.")
+            if not phrase:
+                self._handle_speech("I am navigating to the specified location.")
 
         if is_successful:
             self.state.prev_waypoint_id = self.state.waypoint_id
@@ -355,18 +359,26 @@ class UnifiedSpotInterface:
             # Multiple locations found, ask user for preference
             location_list = ", ".join([f"{i+1}: {loc}" for i, loc in enumerate(locations.keys())])
             question = f"I found {query} in multiple locations: {location_list}. Which location would you prefer?"
+            
+            # Set flag BEFORE speaking so socket input is handled correctly
+            if self.use_socket:
+                self.waiting_for_followup = True
+                self.followup_event.clear()
+                print(f"\n[DEBUG] Set waiting_for_followup=True, cleared event")
+            
             self._handle_speech(question)
 
             # Get user's response (either via socket or audio)
             user_response = None
             if self.use_socket:
                 # Wait for socket input
-                self.waiting_for_followup = True
-                self.followup_event.clear()
+                print(f"\n[DEBUG] Waiting for socket input...")
                 if self.followup_event.wait(timeout=30):  # 30 second timeout
+                    print(f"\n[DEBUG] Event received! Response: {self.followup_response}")
                     user_response = self.followup_response
                     self.waiting_for_followup = False
                 else:
+                    print(f"\n[DEBUG] Timeout - no response received")
                     self.waiting_for_followup = False
                     self._handle_speech("I didn't receive a response in time. Please try your search again.")
                     return
@@ -411,18 +423,25 @@ class UnifiedSpotInterface:
     def _handle_question(self, question: str):
         """Handle interactive questions with improved context awareness"""
         try:
+            # Set flag BEFORE speaking so socket input is handled correctly
+            if self.use_socket:
+                self.waiting_for_followup = True
+                self.followup_event.clear()
+                print(f"\n[DEBUG] Set waiting_for_followup=True for question, cleared event")
+            
             self._handle_speech(question)
 
             # Get user's response (either via socket or audio)
             user_response = None
             if self.use_socket:
                 # Wait for socket input
-                self.waiting_for_followup = True
-                self.followup_event.clear()
+                print(f"\n[DEBUG] Waiting for socket input (question)...")
                 if self.followup_event.wait(timeout=30):  # 30 second timeout
+                    print(f"\n[DEBUG] Event received! Response: {self.followup_response}")
                     user_response = self.followup_response
                     self.waiting_for_followup = False
                 else:
+                    print(f"\n[DEBUG] Timeout - no response received (question)")
                     self.waiting_for_followup = False
                     self._handle_speech("I didn't receive a response in time.")
                     return

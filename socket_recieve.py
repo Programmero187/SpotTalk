@@ -1,5 +1,6 @@
 import json
 import socket
+import threading
 from typing import Callable, Optional
 
 HOST = "127.0.0.1"  # Change this to your desired IP
@@ -58,9 +59,12 @@ class SocketReceiver:
 					print(f"Received: {data}")
 					conn.sendall(b"OK")
 					
-					# Trigger callback with the text (prefer 'text' if present)
+					# Trigger callback with the text (prefer 'text' if present) in a separate thread
+					# This prevents blocking the socket receiver when callback takes time
 					if self.callback:
-						self.callback(payload["text"] if isinstance(payload, dict) and "text" in payload else data)
+						text = payload["text"] if isinstance(payload, dict) and "text" in payload else data
+						callback_thread = threading.Thread(target=self.callback, args=(text,), daemon=True)
+						callback_thread.start()
 				
 				conn.close()
 			except Exception as e:
