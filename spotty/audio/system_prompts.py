@@ -17,6 +17,10 @@ Examples:
 → [{"action": "navigate_to", "location": "office"}]
 - "Sit down, please!"
 → [{"action": "posture", "state": "sit"}]
+- "Show me what Spot is seeing right now." 
+→ [{"action": "take_picture", "camera": "frontleft_fisheye_image, frontright_fisheye_image"}]
+- "Search for the fire extinguisher and take a foto of it."
+→ [{"action": "find_object", "object": "fire extinquisher"}, {"action": "take_picture", "camera": "default"}]
 
 Actionable tasks:
 - "navigate_to": {"location": "room_name"}
@@ -24,6 +28,7 @@ Actionable tasks:
 - "move": {"direction": "forward/backward/left/right", "distance": float}
 - "rotate": {"direction": "clockwise/counterclockwise", "angle": float}
 - "posture": {"state": "sit/stand/lie_down"}
+- "take_picture": {"camera": "back_fisheye_image/frontleft_fisheye_image/frontright_fisheye_image/left_fisheye_image/right_fisheye_image/default/all"}
 - "none": No actionable task found
 Valid room names: ["kitchen", "living_room", "bedroom", "bathroom", "office"]. Ignore all other room names.
 Non-actionable tasks: ["dance", "bark", "play_dead", "fetch", "roll_over", "shake_hands"]
@@ -78,7 +83,11 @@ Always reply with a single function call.
    - Sit down using sit()
    - Stand up using stand()
 
+5. Take a Picture:
+   - take_picture(camera): Take & send a Picture using the defined Camera. Multiple cameras can be named as sources.  
+      -Example: User: "Take a Picture using the front cameras." -> take_picture("frontright_fisheye_image", "frontleft_fisheye_image")
 Possible locations: kitchen, office, hallway, study room, robot lab, base station
+Possible cameras: frontright_fisheye_image, frontleft_fisheye_image, back_fisheye_image, left_fisheye_image, right_fisheye_image, default, all
 
 Conversation Memory Guidelines:
 - Maintain awareness of the full conversation history
@@ -93,6 +102,7 @@ Interaction Guidelines:
 - Use ask() for follow-up questions
 - Use describe_scene() for visual understanding
 - Use sit() and stand() for posture control
+- Use take_picture() for showing what Spot sees
 - Consider both current location context and conversation history when responding
 
 Example memory-aware responses:

@@ -240,6 +240,8 @@ class UnifiedSpotInterface:
                     self._handle_speech("I am now standing and ready to assist.")
                 else:
                     self._handle_speech("I had trouble standing up.")
+            elif command == "take_picture":
+                self._handle_picture(params.get("camera"))
             else:
                 self.logger.warning(f"Unknown command: {command}")
                 self._handle_speech("I'm not sure how to handle that request.")
@@ -313,13 +315,14 @@ class UnifiedSpotInterface:
             self.logger.error(f"Error in VQA: {str(e)}")
             self._handle_speech("I encountered an error processing your visual query.")
 
-    def _handle_speech(self, text: str):
+    def _handle_speech(self, text: str, pics: Optional[Dict[str]] = None):
         """Handle text-to-speech output"""
 
         #Add answer to socket json and send
         with open("socket_temp/robot_response.json", "r") as json_file:
             x = json.load(json_file)
         x["text"] = text
+        x["image_b64"] = pics
 
         with open("socket_temp/robot_response.json", "w") as json_file:
             json.dump(x, json_file, indent=4)
@@ -420,6 +423,48 @@ class UnifiedSpotInterface:
                 self.logger.error(f"Error processing location choice: {e}")
                 self._handle_speech("I had trouble understanding your choice. Please try your search again.")
 
+    def _handle_take_picture(self, camera: List[str]): #obj: str, maybe later
+        """Handle taking a pictureof an Object using VQA handler"""
+        if not camera or camera == "default":
+            camera={"frontright_fisheye_image","frontleft_fisheye_image"}
+        elif camera == "all":
+            camera={"frontright_fisheye_image","frontleft_fisheye_image", "back_fisheye_image", "left_fisheye_image", "right_fisheye_image"}
+        #elif camera =="spotCam":
+            #try:
+
+           # except Exception as e:
+            #self.logger.error(f"Error in take_picture: {str(e)}")
+            #self._handle_speech("I encountered an error taking a picture with the spotCam.")
+        try:
+            if not self.state.current_images:
+                self._handle_speech("I don't have access to camera images")
+                return
+
+            # Prepare images
+            image_dict = {}
+            image_dict = self.image_processor.fetch_images(camera)
+            for source in image_dict.keys:
+                try:
+                    if source in camera:
+                        image_dict[source] = ImageProcessor.encode_to_base64(image_dict[source])
+                except Exception as e:
+                    self.logger.error(f"Error processing image from {source}: {str(e)}")
+
+            #send images to UI
+            self._handle_speech("Here is what i currently see.")
+            for source in image_dict.keys:
+                with open("socket_temp/robot_response.json", "r") as json_file:
+                    x = json.load(json_file)
+                x["text"] = source
+                x["image_b64"] = image_dict[source]
+                with open("socket_temp/robot_response.json", "w") as json_file:
+                    json.dump(x, json_file, indent=4)
+
+        except Exception as e:
+            self.logger.error(f"Error in take_picture: {str(e)}")
+            self._handle_speech("I encountered an error taking or sending the picture.")
+        
+    
     def _handle_question(self, question: str):
         """Handle interactive questions with improved context awareness"""
         try:
