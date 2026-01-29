@@ -56,6 +56,11 @@ class UnifiedSpotInterface:
         self.robot = robot
         self.image_client = robot.ensure_client("image")
         self.openai_client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        
+        # Follow-up handling for socket mode
+        self.waiting_for_followup = False
+        self.followup_response = None
+        self.followup_event = threading.Event()
 
         self._init_graph_nav(robot, config.map_path)
         self._init_rag_system(config.map_path, config.vector_db_path)
@@ -167,6 +172,12 @@ class UnifiedSpotInterface:
         """Handle text input from socket - bypasses voice recording"""
         try:
             print(f"\nSocket input: {text}")
+            
+            # Check if we're waiting for a follow-up response
+            if self.waiting_for_followup:
+                self.followup_response = text
+                self.followup_event.set()
+                return
             
             response = self.chat_client.chat_completion(text)
             print(f"\nSpot's decision: {response}")
@@ -346,12 +357,25 @@ class UnifiedSpotInterface:
             question = f"I found {query} in multiple locations: {location_list}. Which location would you prefer?"
             self._handle_speech(question)
 
-            # Record and process user's response
-            audio_file = self.audio_manager.record_audio(max_recording_time=6)
-            if not audio_file:
-                return
-
-            user_response = self.chat_client.speech_to_text(audio_file)
+            # Get user's response (either via socket or audio)
+            user_response = None
+            if self.use_socket:
+                # Wait for socket input
+                self.waiting_for_followup = True
+                self.followup_event.clear()
+                if self.followup_event.wait(timeout=30):  # 30 second timeout
+                    user_response = self.followup_response
+                    self.waiting_for_followup = False
+                else:
+                    self.waiting_for_followup = False
+                    self._handle_speech("I didn't receive a response in time. Please try your search again.")
+                    return
+            else:
+                # Record and process user's response via audio
+                audio_file = self.audio_manager.record_audio(max_recording_time=6)
+                if not audio_file:
+                    return
+                user_response = self.chat_client.speech_to_text(audio_file)
 
             try:
                 # Use the chat completion API to interpret the user's choice
@@ -389,11 +413,24 @@ class UnifiedSpotInterface:
         try:
             self._handle_speech(question)
 
-            audio_file = self.audio_manager.record_audio(max_recording_time=6)
-            if not audio_file:
-                return
-
-            user_response = self.chat_client.speech_to_text(audio_file)
+            # Get user's response (either via socket or audio)
+            user_response = None
+            if self.use_socket:
+                # Wait for socket input
+                self.waiting_for_followup = True
+                self.followup_event.clear()
+                if self.followup_event.wait(timeout=30):  # 30 second timeout
+                    user_response = self.followup_response
+                    self.waiting_for_followup = False
+                else:
+                    self.waiting_for_followup = False
+                    self._handle_speech("I didn't receive a response in time.")
+                    return
+            else:
+                audio_file = self.audio_manager.record_audio(max_recording_time=6)
+                if not audio_file:
+                    return
+                user_response = self.chat_client.speech_to_text(audio_file)
 
             self.chat_client.add_to_history({"role": "assistant", "content": question})
             self.chat_client.add_to_history({"role": "user", "content": user_response})
