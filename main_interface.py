@@ -227,7 +227,7 @@ class UnifiedSpotInterface:
                 else:
                     self._handle_speech("I had trouble standing up.")
             elif command == "take_picture":
-                self._handle_picture(params.get(""))
+                self._handle_picture(params.get("camera"))
             else:
                 self.logger.warning(f"Unknown command: {command}")
                 self._handle_speech("I'm not sure how to handle that request.")
@@ -406,15 +406,23 @@ class UnifiedSpotInterface:
 
             # Prepare images
             image_dict = {}
-            for source, img in self.state.current_images.items():
+            image_dict = self.image_processor.fetch_images(camera)
+            for source in image_dict.keys:
                 try:
                     if source in camera:
-                        image_dict[source] = ImageProcessor.encode_to_base64(img)
+                        image_dict[source] = ImageProcessor.encode_to_base64(image_dict[source])
                 except Exception as e:
                     self.logger.error(f"Error processing image from {source}: {str(e)}")
 
             #send images to UI
-            self._handle_speech("Here is what i currently see.", image_dict)
+            self._handle_speech("Here is what i currently see.")
+            for source in image_dict.keys:
+                with open("socket_temp/robot_response.json", "r") as json_file:
+                    x = json.load(json_file)
+                x["text"] = source
+                x["image_b64"] = image_dict[source]
+                with open("socket_temp/robot_response.json", "w") as json_file:
+                    json.dump(x, json_file, indent=4)
 
         except Exception as e:
             self.logger.error(f"Error in take_picture: {str(e)}")
